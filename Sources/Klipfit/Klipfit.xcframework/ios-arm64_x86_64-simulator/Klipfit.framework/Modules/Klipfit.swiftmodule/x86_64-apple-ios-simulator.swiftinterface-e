@@ -1,0 +1,486 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Klipfit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AVKit
+import CoreData
+import CoreMotion
+import DeveloperToolsSupport
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import Photos
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit.UIFont
+import UIKit.UIImage
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class KlipftNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor @preconcurrency public static func loadView(productID: Swift.String, retailerName: Swift.String, language: Klipfit.KleepLanguageCode = .fr, trackingID: Swift.String = "", customerID: Swift.String = "", onResult: Klipfit.KleepOnResultCompletion?) -> Klipfit.KlipftNavigationController?
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum CameraState {
+  case ready, accessDenied, noDeviceFound, notDetermined
+  public static func == (a: Klipfit.CameraState, b: Klipfit.CameraState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CameraDevice {
+  case front, back
+  public static func == (a: Klipfit.CameraDevice, b: Klipfit.CameraDevice) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CameraFlashMode : Swift.Int {
+  case off, on, auto
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CameraOutputMode {
+  case stillImage, videoWithMic, videoOnly
+  public static func == (a: Klipfit.CameraOutputMode, b: Klipfit.CameraOutputMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CaptureResult {
+  case success(content: Klipfit.CaptureContent)
+  case failure(any Swift.Error)
+}
+public enum CaptureContent {
+  case imageData(Foundation.Data)
+  case image(UIKit.UIImage)
+  case asset(Photos.PHAsset)
+}
+extension Klipfit.CaptureContent {
+  public var asImage: UIKit.UIImage? {
+    get
+  }
+  public var asData: Foundation.Data? {
+    get
+  }
+}
+public enum CaptureError : Swift.Error {
+  case noImageData
+  case invalidImageData
+  case noVideoConnection
+  case noSampleBuffer
+  case assetNotSaved
+  public static func == (a: Klipfit.CaptureError, b: Klipfit.CaptureError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class CameraManager : ObjectiveC.NSObject, AVFoundation.AVCaptureFileOutputRecordingDelegate, UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor @preconcurrency open var imageAlbumName: Swift.String?
+  @_Concurrency.MainActor @preconcurrency open var videoAlbumName: Swift.String?
+  @_Concurrency.MainActor @preconcurrency open var captureSession: AVFoundation.AVCaptureSession?
+  @_Concurrency.MainActor @preconcurrency open var showErrorsToUsers: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var showAccessPermissionPopupAutomatically: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var showErrorBlock: (_ erTitle: Swift.String, _ erMessage: Swift.String) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency open func canSetPreset(preset: AVFoundation.AVCaptureSession.Preset) -> Swift.Bool?
+  @_Concurrency.MainActor @preconcurrency open var shouldRespondToOrientationChanges: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var shouldFlipFrontCameraImage: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var shouldKeepViewAtOrientationChanges: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var shouldEnableTapToFocus: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var shouldEnablePinchToZoom: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var shouldEnableExposure: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var cameraIsReady: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var hasFrontCamera: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var hasFlash: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var animateCameraDeviceChange: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var animateShutter: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var shouldUseLocationServices: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var cameraDevice: Klipfit.CameraDevice {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var flashMode: Klipfit.CameraFlashMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var cameraOutputQuality: AVFoundation.AVCaptureSession.Preset {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var cameraOutputMode: Klipfit.CameraOutputMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var recordedDuration: CoreMedia.CMTime {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var recordedFileSize: Swift.Int64 {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var focusMode: AVFoundation.AVCaptureDevice.FocusMode
+  @_Concurrency.MainActor @preconcurrency open var exposureMode: AVFoundation.AVCaptureDevice.ExposureMode
+  @_Concurrency.MainActor @preconcurrency open var videoStabilisationMode: AVFoundation.AVCaptureVideoStabilizationMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var activeVideoStabilisationMode: AVFoundation.AVCaptureVideoStabilizationMode {
+    get
+  }
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency open func addPreviewLayerToView(_ view: UIKit.UIView) -> Klipfit.CameraState
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency open func addPreviewLayerToView(_ view: UIKit.UIView, newCameraOutputMode: Klipfit.CameraOutputMode) -> Klipfit.CameraState
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency open func addLayerPreviewToView(_ view: UIKit.UIView, newCameraOutputMode: Klipfit.CameraOutputMode, completion: (() -> Swift.Void)?) -> Klipfit.CameraState
+  @_Concurrency.MainActor @preconcurrency open func zoom(_ scale: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor @preconcurrency open func askUserForCameraPermission(_ completion: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency open func stopCaptureSession()
+  @_Concurrency.MainActor @preconcurrency open func resumeCaptureSession()
+  @_Concurrency.MainActor @preconcurrency open func stopAndRemoveCaptureSession()
+  @available(*, deprecated)
+  @_Concurrency.MainActor @preconcurrency open func capturePictureWithCompletion(_ imageCompletion: @escaping (UIKit.UIImage?, Foundation.NSError?) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency open func capturePictureWithCompletion(_ imageCompletion: @escaping (Klipfit.CaptureResult) -> Swift.Void)
+  @available(*, deprecated)
+  @_Concurrency.MainActor @preconcurrency open func capturePictureDataWithCompletion(_ imageCompletion: @escaping (Foundation.Data?, Foundation.NSError?) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency open func capturePictureDataWithCompletion(_ imageCompletion: @escaping (Klipfit.CaptureResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency open func startRecordingVideo()
+  @_Concurrency.MainActor @preconcurrency open func stopVideoRecording(_ completion: ((_ videoURL: Foundation.URL?, _ error: Foundation.NSError?) -> Swift.Void)?)
+  public typealias QRCodeDetectionHandler = (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency open func startQRCodeDetection(_ handler: @escaping Klipfit.CameraManager.QRCodeDetectionHandler)
+  @_Concurrency.MainActor @preconcurrency open func stopQRCodeDetection()
+  @_Concurrency.MainActor @preconcurrency open func deviceOrientationMatchesInterfaceOrientation() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open func currentCameraStatus() -> Klipfit.CameraState
+  @_Concurrency.MainActor @preconcurrency open func changeFlashMode() -> Klipfit.CameraFlashMode
+  @_Concurrency.MainActor @preconcurrency open func hasFlash(for cameraDevice: Klipfit.CameraDevice) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func fileOutput(_: AVFoundation.AVCaptureFileOutput, didStartRecordingTo _: Foundation.URL, from _: [AVFoundation.AVCaptureConnection])
+  @_Concurrency.MainActor @preconcurrency @objc open func fileOutput(_: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo outputFileURL: Foundation.URL, from _: [AVFoundation.AVCaptureConnection], error: (any Swift.Error)?)
+  @_Concurrency.MainActor @preconcurrency @objc open func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open func resetOrientation()
+  @_Concurrency.MainActor @preconcurrency open func _doFlipAnimation()
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+}
+extension Klipfit.CameraManager : AVFoundation.AVCaptureMetadataOutputObjectsDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func metadataOutput(_: AVFoundation.AVCaptureMetadataOutput, didOutput metadataObjects: [AVFoundation.AVMetadataObject], from: AVFoundation.AVCaptureConnection)
+}
+public protocol AnyOptional {
+  var isNil: Swift.Bool { get }
+}
+#if compiler(>=5.3) && $NoncopyableGenerics
+extension Swift.Optional : Klipfit.AnyOptional {
+  public var isNil: Swift.Bool {
+    get
+  }
+}
+#else
+extension Swift.Optional : Klipfit.AnyOptional {
+  public var isNil: Swift.Bool {
+    get
+  }
+}
+#endif
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class HNTextField : UIKit.UITextField {
+  public enum FloatingDisplayStatus {
+    case always
+    case never
+    case defaults
+    public static func == (a: Klipfit.HNTextField.FloatingDisplayStatus, b: Klipfit.HNTextField.FloatingDisplayStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum HNBorderStyle {
+    case none
+    case rounded
+    case sqare
+    case top
+    case bottom
+    case left
+    case right
+    public static func == (a: Klipfit.HNTextField.HNBorderStyle, b: Klipfit.HNTextField.HNBorderStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public var dtLayer: QuartzCore.CALayer
+  @_Concurrency.MainActor @preconcurrency public var floatPlaceholderColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public var floatPlaceholderActiveColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public var floatingLabelShowAnimationDuration: Swift.Double
+  @_Concurrency.MainActor @preconcurrency public var floatingDisplayStatus: Klipfit.HNTextField.FloatingDisplayStatus
+  @_Concurrency.MainActor @preconcurrency public var borderWidth: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var dtborderStyle: Klipfit.HNTextField.HNBorderStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var errorMessage: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var animateFloatPlaceholder: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var hideErrorWhenEditing: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var errorFont: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var errorTextColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var floatPlaceholderFont: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var paddingYFloatLabel: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var paddingYErrorLabel: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var borderColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var canShowBorder: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var placeholderColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var borderStyle: UIKit.UITextField.BorderStyle {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var textAlignment: UIKit.NSTextAlignment {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var placeholder: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var attributedPlaceholder: Foundation.NSAttributedString? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public func showError(message: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency public func hideError()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func leftViewRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func rightViewRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func clearButtonRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SharedInstance {
+  public static let shared: Klipfit.SharedInstance
+  @objc deinit
+}
+public struct Klipfit {
+  public typealias SizeBlock = (_ size: Swift.String) -> Swift.Void
+  public static var shared: Klipfit.Klipfit
+  public func openSDKfromSwiftUI(productID: Swift.String, trackingID: Swift.String)
+  public func openSDKFrom(productID: Swift.String, trackingID: Swift.String, viewController: UIKit.UIViewController)
+  public func requestSize(productID: Swift.String, retailerName: Swift.String, trackingID: Swift.String = "", customerID: Swift.String = "", isShowLoader: Swift.Bool = true, handler: @escaping (_ kleepResult: Klipfit.KleepResult) -> Swift.Void)
+}
+extension Klipfit.Klipfit {
+  public func track(eventName: Swift.String, parameters: [Swift.String : Any]? = nil)
+}
+@_inheritsConvenienceInitializers @objc(KleepCoreDataProduct) public class KleepCoreDataProduct : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Klipfit.KleepCoreDataProduct {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<Klipfit.KleepCoreDataProduct>
+  @objc @NSManaged dynamic public var pid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var productID: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var valid: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+extension Klipfit.KleepCoreDataProduct : Swift.Identifiable {
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(KleepCoreDataResult) public class KleepCoreDataResult : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Klipfit.KleepCoreDataResult {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<Klipfit.KleepCoreDataResult>
+  @objc @NSManaged dynamic public var feedbackGiven: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var mid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var pid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var recommendationID: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var result: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var resultID: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var uid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var updatedAt: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var kleepCoreDataVariants: Foundation.NSOrderedSet? {
+    @objc get
+    @objc set
+  }
+}
+extension Klipfit.KleepCoreDataResult {
+  @objc(insertObject:inKleepCoreDataVariantsAtIndex:) @NSManaged dynamic public func insertIntoKleepCoreDataVariants(_ value: Klipfit.KleepCoreDataVariant, at idx: Swift.Int)
+  @objc(removeObjectFromKleepCoreDataVariantsAtIndex:) @NSManaged dynamic public func removeFromKleepCoreDataVariants(at idx: Swift.Int)
+  @objc(insertKleepCoreDataVariants:atIndexes:) @NSManaged dynamic public func insertIntoKleepCoreDataVariants(_ values: [Klipfit.KleepCoreDataVariant], at indexes: Foundation.NSIndexSet)
+  @objc(removeKleepCoreDataVariantsAtIndexes:) @NSManaged dynamic public func removeFromKleepCoreDataVariants(at indexes: Foundation.NSIndexSet)
+  @objc(replaceObjectInKleepCoreDataVariantsAtIndex:withObject:) @NSManaged dynamic public func replaceKleepCoreDataVariants(at idx: Swift.Int, with value: Klipfit.KleepCoreDataVariant)
+  @objc(replaceKleepCoreDataVariantsAtIndexes:withKleepCoreDataVariants:) @NSManaged dynamic public func replaceKleepCoreDataVariants(at indexes: Foundation.NSIndexSet, with values: [Klipfit.KleepCoreDataVariant])
+  @objc(addKleepCoreDataVariantsObject:) @NSManaged dynamic public func addToKleepCoreDataVariants(_ value: Klipfit.KleepCoreDataVariant)
+  @objc(removeKleepCoreDataVariantsObject:) @NSManaged dynamic public func removeFromKleepCoreDataVariants(_ value: Klipfit.KleepCoreDataVariant)
+  @objc(addKleepCoreDataVariants:) @NSManaged dynamic public func addToKleepCoreDataVariants(_ values: Foundation.NSOrderedSet)
+  @objc(removeKleepCoreDataVariants:) @NSManaged dynamic public func removeFromKleepCoreDataVariants(_ values: Foundation.NSOrderedSet)
+}
+extension Klipfit.KleepCoreDataResult : Swift.Identifiable {
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(KleepCoreDataVariant) public class KleepCoreDataVariant : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Klipfit.KleepCoreDataVariant {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<Klipfit.KleepCoreDataVariant>
+  @objc @NSManaged dynamic public var label: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var labelRank: Swift.Int16 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var possible: Swift.Int16 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var variantID: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+extension Klipfit.KleepCoreDataVariant : Swift.Identifiable {
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias ID = Swift.ObjectIdentifier
+}
+public enum KleepResult : Swift.Equatable {
+  case notSupported
+  case noRecommendationYet
+  case recommendationFound(result: Swift.String)
+  public static func == (a: Klipfit.KleepResult, b: Klipfit.KleepResult) -> Swift.Bool
+}
+public enum KleepLanguageCode {
+  case fr
+  public static func == (a: Klipfit.KleepLanguageCode, b: Klipfit.KleepLanguageCode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias KleepOnResultCompletion = ((_ result: Swift.String, _ variantID: Swift.String) -> Swift.Void)
+extension Klipfit.CameraState : Swift.Equatable {}
+extension Klipfit.CameraState : Swift.Hashable {}
+extension Klipfit.CameraDevice : Swift.Equatable {}
+extension Klipfit.CameraDevice : Swift.Hashable {}
+extension Klipfit.CameraFlashMode : Swift.Equatable {}
+extension Klipfit.CameraFlashMode : Swift.Hashable {}
+extension Klipfit.CameraFlashMode : Swift.RawRepresentable {}
+extension Klipfit.CameraOutputMode : Swift.Equatable {}
+extension Klipfit.CameraOutputMode : Swift.Hashable {}
+extension Klipfit.CaptureError : Swift.Equatable {}
+extension Klipfit.CaptureError : Swift.Hashable {}
+extension Klipfit.CameraManager : Swift.Sendable {}
+extension Klipfit.HNTextField.FloatingDisplayStatus : Swift.Equatable {}
+extension Klipfit.HNTextField.FloatingDisplayStatus : Swift.Hashable {}
+extension Klipfit.HNTextField.HNBorderStyle : Swift.Equatable {}
+extension Klipfit.HNTextField.HNBorderStyle : Swift.Hashable {}
+extension Klipfit.KleepLanguageCode : Swift.Equatable {}
+extension Klipfit.KleepLanguageCode : Swift.Hashable {}
