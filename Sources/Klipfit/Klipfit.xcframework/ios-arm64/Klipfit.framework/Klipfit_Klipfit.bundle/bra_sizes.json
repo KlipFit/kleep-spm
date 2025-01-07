@@ -1,0 +1,529 @@
+[
+    {
+    "id": 1,
+    "name": "France",
+    "image": "ic_france",
+    "band_sizes": [
+        {
+            "size": 75
+        },
+        {
+            "size": 80
+        },
+        {
+            "size": 85
+        },
+        {
+            "size": 90
+        },
+        {
+            "size": 95
+        },
+        {
+            "size": 100
+        },
+        {
+            "size": 105
+        },
+        {
+            "size": 110
+        },
+        {
+            "size": 115
+        },
+        {
+            "size": 120
+        },
+        {
+            "size": 125
+        }
+    ],
+    "cup_sizes": [
+        {
+            "size": "AA"
+        },
+        {
+            "size": "A"
+        },
+        {
+            "size": "B"
+        },
+        {
+            "size": "C"
+        },
+        {
+            "size": "D"
+        },
+        {
+            "size": "E"
+        },
+        {
+            "size": "F"
+        },
+        {
+            "size": "G"
+        }
+    ]
+},
+    {
+        "id": 2,
+        "name": "United Kingdom",
+        "image": "ic_uk",
+        "band_sizes": [
+            {
+                "size": 28,
+                "fr": 75
+            },
+            {
+                "size": 30,
+                "fr": 80
+            },
+            {
+                "size": 32,
+                "fr": 85
+            },
+            {
+                "size": 34,
+                "fr": 90
+            },
+            {
+                "size": 36,
+                "fr": 95
+            },
+            {
+                "size": 38,
+                "fr": 100
+            },
+            {
+                "size": 40,
+                "fr": 105
+            },
+            {
+                "size": 42,
+                "fr": 110
+            },
+            {
+                "size": 44,
+                "fr": 115
+            },
+            {
+                "size": 46,
+                "fr": 120
+            },
+            {
+                "size": 48,
+                "fr": 125
+            }
+        ],
+        "cup_sizes": [
+            {
+                "size": "A",
+                "fr": "A"
+            },
+            {
+                "size": "B",
+                "fr": "B"
+            },
+            {
+                "size": "C",
+                "fr": "C"
+            },
+            {
+                "size": "D",
+                "fr": "D"
+            },
+            {
+                "size": "DD",
+                "fr": "E"
+            },
+            {
+                "size": "E",
+                "fr": "F"
+            },
+            {
+                "size": "F",
+                "fr": "G"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Italia",
+        "image": "ic_italy",
+        "band_sizes": [
+            {
+                "size": 0,
+                "fr": 80
+            },
+            {
+                "size": 1,
+                "fr": 85
+            },
+            {
+                "size": 2,
+                "fr": 90
+            },
+            {
+                "size": 3,
+                "fr": 95
+            },
+            {
+                "size": 4,
+                "fr": 100
+            },
+            {
+                "size": 5,
+                "fr": 105
+            },
+            {
+                "size": 6,
+                "fr": 110
+            }
+        ],
+        "cup_sizes": [
+            {
+                "size": "A",
+                "fr": "A"
+            },
+            {
+                "size": "B",
+                "fr": "B"
+            },
+            {
+                "size": "C",
+                "fr": "C"
+            },
+            {
+                "size": "D",
+                "fr": "D"
+            },
+            {
+                "size": "E",
+                "fr": "E"
+            },
+            {
+                "size": "F",
+                "fr": "F"
+            },
+            {
+                "size": "G",
+                "fr": "G"
+            }
+        ]
+    },
+    {   "id": 4,
+        "name": "United States",
+        "image": "ic_usa",
+        "band_sizes": [
+            {
+                "size": 28,
+                "fr": 75
+            },
+            {
+                "size": 30,
+                "fr": 80
+            },
+            {
+                "size": 32,
+                "fr": 85
+            },
+            {
+                "size": 34,
+                "fr": 90
+            },
+            {
+                "size": 36,
+                "fr": 95
+            },
+            {
+                "size": 38,
+                "fr": 100
+            },
+            {
+                "size": 40,
+                "fr": 105
+            },
+            {
+                "size": 42,
+                "fr": 110
+            },
+            {
+                "size": 44,
+                "fr": 115
+            },
+            {
+                "size": 46,
+                "fr": 120
+            },
+            {
+                "size": 48,
+                "fr": 125
+            }
+        ],
+        "cup_sizes": [
+            {
+                "size": "AA",
+                "fr": "AA"
+            },
+            {
+                "size": "A",
+                "fr": "A"
+            },
+            {
+                "size": "B",
+                "fr": "B"
+            },
+            {
+                "size": "C",
+                "fr": "C"
+            },
+            {
+                "size": "D",
+                "fr": "D"
+            },
+            {
+                "size": "DD",
+                "fr": "E"
+            },
+            {
+                "size": "DDD/F",
+                "fr": "F"
+            },
+            {
+                "size": "DDDD/G",
+                "fr": "G"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "日本",
+        "image": "ic_japan",
+        "band_sizes": [
+            {
+                "size": 60,
+                "fr": 75
+            },
+            {
+                "size": 65,
+                "fr": 80
+            },
+            {
+                "size": 70,
+                "fr": 85
+            },
+            {
+                "size": 75,
+                "fr": 90
+            },
+            {
+                "size": 80,
+                "fr": 95
+            },
+            {
+                "size": 85,
+                "fr": 100
+            },
+            {
+                "size": 90,
+                "fr": 105
+            },
+            {
+                "size": 95,
+                "fr": 110
+            },
+            {
+                "size": 100,
+                "fr": 115
+            },
+            {
+                "size": 105,
+                "fr": 120
+            }
+        ],
+        "cup_sizes": [
+            {
+                "size": "A",
+                "fr": "AA"
+            },
+            {
+                "size": "B",
+                "fr": "A"
+            },
+            {
+                "size": "C",
+                "fr": "B"
+            },
+            {
+                "size": "D",
+                "fr": "C"
+            },
+            {
+                "size": "E",
+                "fr": "D"
+            },
+            {
+                "size": "F",
+                "fr": "E"
+            },
+            {
+                "size": "G",
+                "fr": "F"
+            },
+            {
+                "size": "H",
+                "fr": "G"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Australia",
+        "image": "ic_australia",
+        "band_sizes": [
+            {
+                "size": 6,
+                "fr": 75
+            },
+            {
+                "size": 8,
+                "fr": 80
+            },
+            {
+                "size": 10,
+                "fr": 85
+            },
+            {
+                "size": 12,
+                "fr": 90
+            },
+            {
+                "size": 14,
+                "fr": 95
+            },
+            {
+                "size": 16,
+                "fr": 100
+            },
+            {
+                "size": 18,
+                "fr": 105
+            },
+            {
+                "size": 20,
+                "fr": 110
+            }
+        ],
+        "cup_sizes": [
+            {
+                "size": "A",
+                "fr": "A"
+            },
+            {
+                "size": "B",
+                "fr": "B"
+            },
+            {
+                "size": "C",
+                "fr": "C"
+            },
+            {
+                "size": "D",
+                "fr": "D"
+            },
+            {
+                "size": "DD",
+                "fr": "E"
+            },
+            {
+                "size": "E",
+                "fr": "F"
+            },
+            {
+                "size": "F",
+                "fr": "G"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "EU",
+        "image": "ic_eu",
+        "band_sizes": [
+            {
+                "size": 60,
+                "fr": 75
+            },
+            {
+                "size": 65,
+                "fr": 80
+            },
+            {
+                "size": 70,
+                "fr": 85
+            },
+            {
+                "size": 75,
+                "fr": 90
+            },
+            {
+                "size": 80,
+                "fr": 95
+            },
+            {
+                "size": 85,
+                "fr": 100
+            },
+            {
+                "size": 90,
+                "fr": 105
+            },
+            {
+                "size": 95,
+                "fr": 110
+            },
+            {
+                "size": 100,
+                "fr": 115
+            },
+            {
+                "size": 105,
+                "fr": 120
+            }
+        ],
+        "cup_sizes": [
+            {
+                "size": "AA",
+                "fr": "AA"
+            },
+            {
+                "size": "A",
+                "fr": "A"
+            },
+            {
+                "size": "B",
+                "fr": "B"
+            },
+            {
+                "size": "C",
+                "fr": "C"
+            },
+            {
+                "size": "D",
+                "fr": "D"
+            },
+            {
+                "size": "E",
+                "fr": "E"
+            },
+            {
+                "size": "F",
+                "fr": "F"
+            },
+            {
+                "size": "G",
+                "fr": "G"
+            }
+        ]
+    },
+]
