@@ -23,7 +23,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class KlipftNavigationController : UIKit.UINavigationController {
-  @_Concurrency.MainActor @preconcurrency public static func loadView(productID: Swift.String, retailerName: Swift.String, language: Klipfit.KleepLanguageCode = .fr, trackingID: Swift.String = "", customerID: Swift.String = "", onResult: Klipfit.KleepOnResultCompletion?) -> Klipfit.KlipftNavigationController?
+  @_Concurrency.MainActor @preconcurrency public static func loadView(productID: Swift.String, retailerName: Swift.String, language: Klipfit.KleepLanguageCode = .fr, trackingID: Swift.String = "", customerID: Swift.String = "", stocks: [Swift.String : Swift.Bool]? = nil, onResult: Klipfit.KleepOnResultCompletion?) -> Klipfit.KlipftNavigationController?
   @available(iOS 5.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
