@@ -297,7 +297,7 @@
           {
             "kind": "Function",
             "name": "loadView",
-            "printedName": "loadView(productID:retailerName:language:trackingID:customerID:onResult:)",
+            "printedName": "loadView(productID:retailerName:language:trackingID:customerID:stocks:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -349,6 +349,35 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "[Swift.String : Swift.Bool]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.Bool]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "((Swift.String, Swift.String) -> ())?",
                 "children": [
                   {
@@ -387,8 +416,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH08onResultACSgSS_SSAA17KleepLanguageCodeOS2SySS_SStcSgtFZ",
-            "mangledName": "$s7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH08onResultACSgSS_SSAA17KleepLanguageCodeOS2SySS_SStcSgtFZ",
+            "usr": "s:7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH06stocks8onResultACSgSS_SSAA17KleepLanguageCodeOS2SSDySSSbGSgySS_SStcSgtFZ",
+            "mangledName": "$s7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH06stocks8onResultACSgSS_SSAA17KleepLanguageCodeOS2SSDySSSbGSgySS_SStcSgtFZ",
             "moduleName": "Klipfit",
             "static": true,
             "declAttributes": [
@@ -14272,3255 +14301,3262 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 17,
       "value": "\"Klipfit_Klipfit\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "Array",
       "offset": 959,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 9,
       "value": "\".bundle\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1638,
       "length": 45,
       "value": "\"unable to find bundle named Klipfit_Klipfit\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "Array",
       "offset": 107,
       "length": 135,
       "value": "[\"com.showroomprive.showroompriveiphone\", \"com.showroomprive.showroom.entreprise\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "Array",
       "offset": 298,
       "length": 168,
       "value": "[\"com.app.KleepApp\", \"com.kleep.Kleep-DEV\", \"com.kleepdebug.test\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 531,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
       "kind": "BooleanLiteral",
       "offset": 405,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
       "kind": "BooleanLiteral",
       "offset": 463,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 666,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 725,
       "length": 2,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 740,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 772,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
       "offset": 1259,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
       "offset": 1462,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "FloatLiteral",
       "offset": 1818,
       "length": 4,
       "value": "0.12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
       "offset": 1853,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
       "offset": 1885,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
       "offset": 2114,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
       "offset": 2351,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
       "offset": 2660,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
       "offset": 2697,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
       "offset": 2954,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 2,
       "value": "49"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 371,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 237,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 782,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 865,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "FloatLiteral",
       "offset": 183,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 190,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "FloatLiteral",
       "offset": 258,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "FloatLiteral",
       "offset": 332,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "FloatLiteral",
       "offset": 407,
       "length": 4,
       "value": "0.32"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1111,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/CountryTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1354,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 2,
       "value": "49"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "FloatLiteral",
       "offset": 366,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "Array",
       "offset": 482,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "BooleanLiteral",
       "offset": 881,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "IntegerLiteral",
       "offset": 915,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "BooleanLiteral",
       "offset": 1123,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "BooleanLiteral",
       "offset": 1303,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "IntegerLiteral",
       "offset": 1386,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/SectionTitleHeaderView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/SectionTitleHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CalculationError\/CalculationErrorView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CalculationError\/CalculationErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 439,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CalculationError\/CalculationErrorView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CalculationError\/CalculationErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 656,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/InstructionsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/InstructionsView.swift",
       "kind": "IntegerLiteral",
       "offset": 768,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/InstructionsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/InstructionsView.swift",
       "kind": "IntegerLiteral",
       "offset": 1243,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/InstructionsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/InstructionsView.swift",
       "kind": "IntegerLiteral",
       "offset": 1428,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "IntegerLiteral",
       "offset": 503,
       "length": 2,
       "value": "53"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "IntegerLiteral",
       "offset": 978,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1037,
       "length": 2,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "BooleanLiteral",
       "offset": 1052,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "BooleanLiteral",
       "offset": 1084,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "StringLiteral",
       "offset": 3248,
       "length": 9,
       "value": "\"#BBBBBB\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "IntegerLiteral",
       "offset": 3311,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionView.swift",
       "kind": "IntegerLiteral",
       "offset": 3511,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionViewController.swift",
       "kind": "StringLiteral",
       "offset": 650,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/Instructions\/Video\/ImageInstructionViewController.swift",
       "kind": "StringLiteral",
       "offset": 668,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
       "kind": "IntegerLiteral",
       "offset": 547,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
       "kind": "IntegerLiteral",
       "offset": 680,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
       "kind": "IntegerLiteral",
       "offset": 1015,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
       "kind": "IntegerLiteral",
       "offset": 1218,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/BraShapeFlowLayout.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/BraShapeFlowLayout.swift",
       "kind": "IntegerLiteral",
       "offset": 161,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/CountriesProvider.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/CountriesProvider.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 12,
       "value": "\"band_sizes\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/CountriesProvider.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/CountriesProvider.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 11,
       "value": "\"cup_sizes\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/CountriesProvider.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/CountriesProvider.swift",
       "kind": "Array",
       "offset": 817,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/DataValidator.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/DataValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 79,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/DataValidator.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/DataValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 112,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
       "kind": "IntegerLiteral",
       "offset": 71,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
       "kind": "IntegerLiteral",
       "offset": 86,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/KleepVariant.swift",
       "kind": "BooleanLiteral",
       "offset": 614,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/Pager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Components\/Pager.swift",
       "kind": "IntegerLiteral",
       "offset": 96,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
       "kind": "FloatLiteral",
       "offset": 741,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
       "kind": "FloatLiteral",
       "offset": 821,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
       "kind": "FloatLiteral",
       "offset": 861,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Calculation\/CalculateSizeVC.swift",
       "kind": "FloatLiteral",
       "offset": 891,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "IntegerLiteral",
       "offset": 234,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1833,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "StringLiteral",
       "offset": 1865,
       "length": 28,
       "value": "\"com.kleep.uploadImageQueue\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "BooleanLiteral",
       "offset": 2869,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "BooleanLiteral",
       "offset": 2917,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "BooleanLiteral",
       "offset": 2960,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "BooleanLiteral",
       "offset": 3003,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/Capture\/CapturePoseVC.swift",
       "kind": "IntegerLiteral",
       "offset": 3048,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 504,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
       "kind": "IntegerLiteral",
       "offset": 308,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
       "kind": "IntegerLiteral",
       "offset": 571,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
       "kind": "FloatLiteral",
       "offset": 698,
       "length": 4,
       "value": "0.32"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
       "kind": "FloatLiteral",
       "offset": 833,
       "length": 4,
       "value": "0.08"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/CustomSegmentedControl.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/CustomSegmentedControl.swift",
       "kind": "Array",
       "offset": 621,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/CustomSegmentedControl.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/CustomSegmentedControl.swift",
       "kind": "Array",
       "offset": 798,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/CustomSegmentedControl.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/CustomSegmentedControl.swift",
       "kind": "IntegerLiteral",
       "offset": 1151,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "IntegerLiteral",
       "offset": 414,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "IntegerLiteral",
       "offset": 667,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "FloatLiteral",
       "offset": 770,
       "length": 4,
       "value": "1.25"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 10,
       "value": "\"ex : 185\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 8,
       "value": "\"ex : 4\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 8,
       "value": "\"ex : 6\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 9,
       "value": "\"ex : 77\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 9,
       "value": "\"ex : 20\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
       "kind": "IntegerLiteral",
       "offset": 1893,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
       "kind": "IntegerLiteral",
       "offset": 471,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 706,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 1040,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 1213,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 378,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 642,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "BooleanLiteral",
       "offset": 868,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "BooleanLiteral",
       "offset": 1203,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 294,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/NoInternetConnection\/NoInternetConnectionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/NoInternetConnection\/NoInternetConnectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 605,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/NoInternetConnection\/NoInternetConnectionView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/NoInternetConnection\/NoInternetConnectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1065,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
       "kind": "FloatLiteral",
       "offset": 262,
       "length": 4,
       "value": "0.32"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1288,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
       "offset": 936,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
       "offset": 1146,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
       "offset": 1279,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
       "offset": 1588,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
       "offset": 1720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
       "offset": 1780,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
       "offset": 2367,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
       "offset": 3117,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3428,
+      "offset": 3427,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3619,
+      "offset": 3618,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "StringLiteral",
-      "offset": 3808,
+      "offset": 3807,
       "length": 9,
       "value": "\"#FDF4D5\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3848,
+      "offset": 3847,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4026,
+      "offset": 4025,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4168,
+      "offset": 4167,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4395,
+      "offset": 4394,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4969,
+      "offset": 4968,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12799,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationViewController.swift",
       "kind": "Dictionary",
       "offset": 198,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationViewController.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationViewController.swift",
       "kind": "Array",
       "offset": 717,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/Cells\/SimilarProductCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/Cells\/SimilarProductCollectionViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 274,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/Cells\/SimilarProductCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/Cells\/SimilarProductCollectionViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 629,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/Cells\/SimilarProductCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/Cells\/SimilarProductCollectionViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 851,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
       "kind": "IntegerLiteral",
       "offset": 395,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
       "kind": "IntegerLiteral",
       "offset": 554,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
       "kind": "FloatLiteral",
       "offset": 779,
       "length": 4,
       "value": "0.08"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
       "kind": "BooleanLiteral",
       "offset": 907,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
       "kind": "BooleanLiteral",
       "offset": 1228,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
       "kind": "BooleanLiteral",
       "offset": 1370,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/SimilarProducts\/SimilarProductsView.swift",
       "kind": "BooleanLiteral",
       "offset": 1430,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/Routers\/Router.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Routers\/Router.swift",
       "kind": "BooleanLiteral",
       "offset": 2657,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
       "kind": "FloatLiteral",
       "offset": 287,
       "length": 4,
       "value": "0.12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 606,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
       "offset": 672,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
       "offset": 810,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
       "offset": 1150,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
       "offset": 1365,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
       "offset": 1427,
       "length": 2,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
       "offset": 1442,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
       "offset": 1692,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
       "offset": 1962,
       "length": 2,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
       "offset": 1977,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
       "offset": 2142,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/UnsupportedSDK\/UnsupportedSDKView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/UnsupportedSDK\/UnsupportedSDKView.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Flows\/UnsupportedSDK\/UnsupportedSDKView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/UnsupportedSDK\/UnsupportedSDKView.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 35,
       "value": "\"SDK is not supported for your app\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 19,
       "value": "\"color_circle_line\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 970,
       "length": 12,
       "value": "\"neutral000\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 12,
       "value": "\"neutral100\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 12,
       "value": "\"neutral200\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1168,
       "length": 13,
       "value": "\"neutral_red\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1235,
       "length": 12,
       "value": "\"success200\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1302,
       "length": 14,
       "value": "\"hanches_man1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1371,
       "length": 14,
       "value": "\"hanches_man2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1440,
       "length": 14,
       "value": "\"hanches_man3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1511,
       "length": 16,
       "value": "\"hanches_women1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1584,
       "length": 16,
       "value": "\"hanches_women2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 16,
       "value": "\"hanches_women3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1726,
       "length": 12,
       "value": "\"torse_man1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1791,
       "length": 12,
       "value": "\"torse_man2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1856,
       "length": 12,
       "value": "\"torse_man3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1922,
       "length": 13,
       "value": "\"ventre_man1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 1989,
       "length": 13,
       "value": "\"ventre_man2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2056,
       "length": 13,
       "value": "\"ventre_man3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2125,
       "length": 15,
       "value": "\"ventre_women1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2196,
       "length": 15,
       "value": "\"ventre_women2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2267,
       "length": 15,
       "value": "\"ventre_women3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2342,
       "length": 20,
       "value": "\"back_arrow_rounded\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2417,
       "length": 14,
       "value": "\"camara_frame\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2486,
       "length": 14,
       "value": "\"female_front\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2554,
       "length": 13,
       "value": "\"female_side\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2622,
       "length": 15,
       "value": "\"ic_arrow_back\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2692,
       "length": 15,
       "value": "\"ic_arrow_down\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2762,
       "length": 14,
       "value": "\"ic_australia\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2826,
       "length": 9,
       "value": "\"ic_back\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2890,
       "length": 14,
       "value": "\"ic_checkmark\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 2955,
       "length": 10,
       "value": "\"ic_close\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3018,
       "length": 12,
       "value": "\"ic_clothes\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3078,
       "length": 7,
       "value": "\"ic_eu\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3142,
       "length": 17,
       "value": "\"ic_forward_pose\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3211,
       "length": 11,
       "value": "\"ic_france\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3283,
       "length": 21,
       "value": "\"ic_front_silhouette\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3355,
       "length": 10,
       "value": "\"ic_italy\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3416,
       "length": 10,
       "value": "\"ic_japan\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3477,
       "length": 10,
       "value": "\"ic_kleep\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3538,
       "length": 10,
       "value": "\"ic_light\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3614,
       "length": 27,
       "value": "\"ic_no_internet_connection\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3697,
       "length": 16,
       "value": "\"ic_photo_black\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3764,
       "length": 10,
       "value": "\"ic_right\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3834,
       "length": 20,
       "value": "\"ic_side_silhouette\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3902,
       "length": 7,
       "value": "\"ic_uk\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 3958,
       "length": 8,
       "value": "\"ic_usa\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 4019,
       "length": 12,
       "value": "\"ic_warning\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 4084,
       "length": 12,
       "value": "\"male_front\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 4148,
       "length": 11,
       "value": "\"male_side\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 4685,
       "length": 43,
       "value": "\"Unable to load color asset named \""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Generated\/Assets.swift",
       "kind": "StringLiteral",
       "offset": 4726,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
       "kind": "StringLiteral",
       "offset": 1060,
       "length": 7,
       "value": "\"1.0.1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
       "kind": "StringLiteral",
       "offset": 1123,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
       "kind": "StringLiteral",
       "offset": 1149,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/ApiService.swift",
       "kind": "StringLiteral",
       "offset": 1174,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/AsyncOperation.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/AsyncOperation.swift",
       "kind": "BooleanLiteral",
       "offset": 816,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "IntegerLiteral",
       "offset": 289,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3054,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3433,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "StringLiteral",
       "offset": 3974,
       "length": 4,
       "value": "\"OK\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4279,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4878,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5299,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5522,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5710,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5994,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 6277,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 7183,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 7360,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 7578,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "IntegerLiteral",
       "offset": 8215,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "IntegerLiteral",
       "offset": 9210,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "StringLiteral",
       "offset": 11128,
       "length": 20,
       "value": "\"CameraSessionQueue\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "Array",
       "offset": 11162,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 11820,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 11883,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 11934,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 11984,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 12032,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 41488,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "IntegerLiteral",
       "offset": 41528,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 41620,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 41695,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 41701,
       "length": 6,
       "value": "2000.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 62359,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 496,
       "length": 4,
       "value": "0.20"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 372,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 567,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 761,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 907,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "BooleanLiteral",
       "offset": 1087,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 1121,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/CircularProgressBar.swift",
       "kind": "BooleanLiteral",
       "offset": 5475,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1443,
       "length": 19,
       "value": "\"kleep_sdk_user_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1497,
       "length": 22,
       "value": "\"kleep_sdk_measure_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1567,
       "length": 37,
       "value": "\"kleep_sdk_last_generated_measure_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1650,
       "length": 35,
       "value": "\"kleep_sdk_last_used_retailer_name\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1719,
       "length": 20,
       "value": "\"kleep_measure_type\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 23,
       "value": "\"kleep_basic_height_ft\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1836,
       "length": 25,
       "value": "\"kleep_basic_height_inch\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1897,
       "length": 23,
       "value": "\"kleep_basic_height_CM\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 1954,
       "length": 20,
       "value": "\"kleep_basic_weight\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2006,
       "length": 18,
       "value": "\"kleep_basic_name\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2058,
       "length": 20,
       "value": "\"kleep_basic_gender\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2109,
       "length": 17,
       "value": "\"kleep_basic_age\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2168,
       "length": 30,
       "value": "\"kleep_basic_is_inch_selected\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2239,
       "length": 29,
       "value": "\"kleep_basic_is_lbs_selected\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2316,
       "length": 18,
       "value": "\"kleep_male_belly\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2364,
       "length": 16,
       "value": "\"kleep_male_hip\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2412,
       "length": 18,
       "value": "\"kleep_make_chest\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2482,
       "length": 20,
       "value": "\"kleep_female_belly\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2534,
       "length": 18,
       "value": "\"kleep_female_hip\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2588,
       "length": 23,
       "value": "\"kleep_female_bra_size\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2646,
       "length": 22,
       "value": "\"klpee_female_bra_cup\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2728,
       "length": 18,
       "value": "\"kleep_country_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2796,
       "length": 21,
       "value": "\"kleep_front_put_url\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/DefaultsStorage.swift",
       "kind": "StringLiteral",
       "offset": 2850,
       "length": 20,
       "value": "\"kleep_side_put_url\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/Notification+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/Notification+Extension.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 12,
       "value": "\"dismissSDK\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/Notification+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/Notification+Extension.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 19,
       "value": "\"reloadProfileList\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/Notification+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/Notification+Extension.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 27,
       "value": "\"kleepNoInternetConnection\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIButton+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIButton+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 194,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIColor+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIColor+Extension.swift",
       "kind": "BooleanLiteral",
       "offset": 651,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIDevice+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 17,
       "value": "\"kleepDeviceUDID\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 1743,
       "length": 10,
       "value": "2003265652"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 1771,
       "length": 10,
       "value": "2003072104"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 2011,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 2033,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 2057,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 2077,
       "length": 3,
       "value": "700"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIImage+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIImage+Extension.swift",
       "kind": "FloatLiteral",
       "offset": 478,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIImageView+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIImageView+Extension.swift",
       "kind": "StringLiteral",
       "offset": 5221,
       "length": 8,
       "value": "\"urlKey\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIImageView+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIImageView+Extension.swift",
       "kind": "StringLiteral",
       "offset": 5342,
       "length": 17,
       "value": "\"downloadTaskKey\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIStoryboard+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIStoryboard+Extension.swift",
       "kind": "StringLiteral",
       "offset": 154,
       "length": 6,
       "value": "\"Home\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIStoryboard+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIStoryboard+Extension.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 10,
       "value": "\"Dynamic2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIStoryboard+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIStoryboard+Extension.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 15,
       "value": "\"CalculateSize\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIViewController+Extension.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
       "offset": 181,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 582,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 632,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 880,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 1026,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 1372,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 1414,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 1484,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 1658,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 1853,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 1895,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 2061,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 2265,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 2271,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 2476,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 2610,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 2616,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "StringLiteral",
       "offset": 2807,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 2917,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 2966,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 3024,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 3342,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 3535,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
       "offset": 3647,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 4099,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 5804,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 5858,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 15567,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 15627,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 15632,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 862,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 873,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1010,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1021,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1066,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1077,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "Array",
       "offset": 38,
       "length": 44,
       "value": "[\"Plutôt plat\", \"Moyen\", \"Plutôt arrondi\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "Array",
       "offset": 101,
       "length": 43,
       "value": "[\"Plutôt fin\", \"Moyen\", \"Plutôt musclé\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "Array",
       "offset": 163,
       "length": 49,
       "value": "[\"Plutôt droites\", \"Moyen\", \"Plutôt arrondies\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "Array",
       "offset": 234,
       "length": 44,
       "value": "[\"Plutôt plat\", \"Moyen\", \"Plutôt arrondi\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "Array",
       "offset": 299,
       "length": 52,
       "value": "[\"Plutôt droites\", \"Moyennes\", \"Plutôt arrondies\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "Array",
       "offset": 372,
       "length": 93,
       "value": "[\"75\", \"80\", \"85\", \"90\", \"95\", \"100\", \"105\", \"110\", \"115\", \"120\", \"125\", \"130\", \"135\", \"140\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "Array",
       "offset": 482,
       "length": 61,
       "value": "[\"AA\", \"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\"]"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/KleepGlobalConstants.swift",
       "kind": "StringLiteral",
       "offset": 562,
       "length": 22,
       "value": "\"https:\/\/fit.kleep.ai\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/LogService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/LogService.swift",
       "kind": "BooleanLiteral",
       "offset": 46,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
       "kind": "BooleanLiteral",
       "offset": 189,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 19,
       "value": "\"ReachabilityQueue\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
       "kind": "BooleanLiteral",
       "offset": 1662,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Reachibility.swift",
       "kind": "StringLiteral",
       "offset": 7389,
       "length": 14,
       "value": "\"FlagsChanged\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 7,
       "value": "\"Kleep\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
       "kind": "StringLiteral",
       "offset": 799,
       "length": 6,
       "value": "\"momd\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
       "kind": "StringLiteral",
       "offset": 907,
       "length": 22,
       "value": "\"Unable to load model\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
       "kind": "StringLiteral",
       "offset": 1226,
       "length": 46,
       "value": "\"Unresolved error \""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
       "kind": "StringLiteral",
       "offset": 1252,
       "length": 1,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
       "kind": "StringLiteral",
       "offset": 1271,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/LoadingView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 301,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
       "kind": "StringLiteral",
       "offset": 229,
       "length": 9,
       "value": "\"#AEAAAA\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 9,
       "value": "\"#6B6B6B\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
       "kind": "BooleanLiteral",
       "offset": 636,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
       "kind": "StringLiteral",
       "offset": 915,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/StepView.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
       "kind": "StringLiteral",
       "offset": 953,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
       "kind": "StringLiteral",
       "offset": 1006,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
       "kind": "BooleanLiteral",
       "offset": 1059,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/ApiError.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/ApiError.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 13,
       "value": "\"customer_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
       "kind": "StringLiteral",
       "offset": 201,
       "length": 11,
       "value": "\"productId\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 12,
       "value": "\"measure_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 9,
       "value": "\"user_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/AnalyticsPushRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 1408,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/CheckProductRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/CheckProductRequest.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 19,
       "value": "\"product_reference\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/LinkCustomerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/LinkCustomerRequest.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 9,
       "value": "\"user_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/LinkCustomerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/LinkCustomerRequest.swift",
       "kind": "StringLiteral",
       "offset": 191,
       "length": 13,
       "value": "\"customer_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/MeasurementsRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/MeasurementsRequest.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 12,
       "value": "\"measure_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewMeasureRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewMeasureRequest.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 9,
       "value": "\"user_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewMeasureRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewMeasureRequest.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 14,
       "value": "\"measure_type\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewMeasureRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewMeasureRequest.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 31,
       "value": "\"retailer_customer_tracking_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewUserRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NewUserRequest.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NoteRecommendationRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/NoteRecommendationRequest.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 19,
       "value": "\"recommendation_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 12,
       "value": "\"measure_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 12,
       "value": "\"male_belly\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 10,
       "value": "\"male_hip\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 1028,
       "length": 12,
       "value": "\"male_chest\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 1295,
       "length": 14,
       "value": "\"female_belly\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 1335,
       "length": 12,
       "value": "\"female_hip\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 1679,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 1722,
       "length": 3,
       "value": "\"B\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 1830,
       "length": 17,
       "value": "\"female_bra_size\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/QuestionPushTriggerRequest.swift",
       "kind": "StringLiteral",
       "offset": 1876,
       "length": 16,
       "value": "\"female_bra_cup\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/RecommendRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/RecommendRequest.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 19,
       "value": "\"measure_public_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/RecommendRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/RecommendRequest.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 19,
       "value": "\"product_reference\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/ScanPushAnswersRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/ScanPushAnswersRequest.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 12,
       "value": "\"measure_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/SimilarProductsRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/SimilarProductsRequest.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 19,
       "value": "\"product_reference\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/SimilarProductsRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/SimilarProductsRequest.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 19,
       "value": "\"variant_reference\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/StocksRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/StocksRequest.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 17,
       "value": "\"retailer_domain\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/StocksRequest.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Requests\/StocksRequest.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 19,
       "value": "\"product_reference\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/NewMeasureResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/NewMeasureResponse.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 12,
       "value": "\"measure_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/NewUserResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/NewUserResponse.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 9,
       "value": "\"user_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 12,
       "value": "\"variant_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 12,
       "value": "\"label_rank\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
       "kind": "StringLiteral",
       "offset": 868,
       "length": 16,
       "value": "\"recommendation\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/RecommendResponse.swift",
       "kind": "StringLiteral",
       "offset": 917,
       "length": 19,
       "value": "\"recommendation_id\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/ScanPushAnswersResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/ScanPushAnswersResponse.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 15,
       "value": "\"front_put_url\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/ScanPushAnswersResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/ScanPushAnswersResponse.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 14,
       "value": "\"side_put_url\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/SimilarProductsResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/SimilarProductsResponse.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/SimilarProductsResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/SimilarProductsResponse.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 13,
       "value": "\"product_url\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/StocksResponse.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/Responses\/StocksResponse.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 19,
       "value": "\"variant_reference\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Params\/BasicInfoParams.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Params\/BasicInfoParams.swift",
       "kind": "BooleanLiteral",
       "offset": 811,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/Sources\/Klipfit\/Models\/Params\/BasicInfoParams.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Models\/Params\/BasicInfoParams.swift",
       "kind": "BooleanLiteral",
       "offset": 850,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 19,
       "value": "\"color_circle_line\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 789,
       "length": 12,
       "value": "\"neutral000\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 931,
       "length": 12,
       "value": "\"neutral100\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1073,
       "length": 12,
       "value": "\"neutral200\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1216,
       "length": 13,
       "value": "\"neutral_red\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1359,
       "length": 12,
       "value": "\"success200\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1620,
       "length": 20,
       "value": "\"back_arrow_rounded\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1773,
       "length": 14,
       "value": "\"camara_frame\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1920,
       "length": 14,
       "value": "\"female_front\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2065,
       "length": 13,
       "value": "\"female_side\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2211,
       "length": 14,
       "value": "\"hanches_man1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2358,
       "length": 14,
       "value": "\"hanches_man2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2505,
       "length": 14,
       "value": "\"hanches_man3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2656,
       "length": 16,
       "value": "\"hanches_women1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2809,
       "length": 16,
       "value": "\"hanches_women2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2962,
       "length": 16,
       "value": "\"hanches_women3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3112,
       "length": 15,
       "value": "\"ic_arrow_back\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3261,
       "length": 15,
       "value": "\"ic_arrow_down\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3409,
       "length": 14,
       "value": "\"ic_australia\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3546,
       "length": 9,
       "value": "\"ic_back\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3688,
       "length": 14,
       "value": "\"ic_checkmark\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3827,
       "length": 10,
       "value": "\"ic_close\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3966,
       "length": 12,
       "value": "\"ic_clothes\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4097,
       "length": 7,
       "value": "\"ic_eu\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4242,
       "length": 17,
       "value": "\"ic_forward_pose\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4386,
       "length": 11,
       "value": "\"ic_france\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4543,
       "length": 21,
       "value": "\"ic_front_silhouette\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4689,
       "length": 10,
       "value": "\"ic_italy\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4824,
       "length": 10,
       "value": "\"ic_japan\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4959,
       "length": 10,
       "value": "\"ic_kleep\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5094,
       "length": 10,
       "value": "\"ic_light\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5261,
       "length": 27,
       "value": "\"ic_no_internet_connection\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5424,
       "length": 16,
       "value": "\"ic_photo_black\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5565,
       "length": 10,
       "value": "\"ic_right\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5719,
       "length": 20,
       "value": "\"ic_side_silhouette\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5858,
       "length": 7,
       "value": "\"ic_uk\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5986,
       "length": 8,
       "value": "\"ic_usa\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6123,
       "length": 12,
       "value": "\"ic_warning\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6264,
       "length": 12,
       "value": "\"male_front\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6403,
       "length": 11,
       "value": "\"male_side\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6543,
       "length": 12,
       "value": "\"torse_man1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6684,
       "length": 12,
       "value": "\"torse_man2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6825,
       "length": 12,
       "value": "\"torse_man3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6968,
       "length": 13,
       "value": "\"ventre_man1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7112,
       "length": 13,
       "value": "\"ventre_man2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7256,
       "length": 13,
       "value": "\"ventre_man3\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7404,
       "length": 15,
       "value": "\"ventre_women1\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7554,
       "length": 15,
       "value": "\"ventre_women2\""
     },
     {
-      "filePath": "\/Users\/macbookpro\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Klipfit\/IntermediateBuildFilesPath\/Klipfit.build\/Release-iphoneos\/Klipfit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7704,
       "length": 15,
