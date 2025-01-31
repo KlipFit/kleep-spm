@@ -17,7 +17,7 @@ This process needs to be followed only once, the first time you need to install 
 
 URL: https://github.com/KlipFit/kleep-spm
 
-**Step 4:** Change dependency rule to: up to next major version : 4.1.0
+**Step 4:** Change dependency rule to: up to next major version : 4.1.1
 
 **Step 5:** Make sure Klipflit product is ticked and click on Add Package
 
