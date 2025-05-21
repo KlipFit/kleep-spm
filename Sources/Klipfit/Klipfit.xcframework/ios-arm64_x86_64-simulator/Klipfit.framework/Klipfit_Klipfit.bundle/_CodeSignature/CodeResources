@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		cm8fvBqEh6+Mkh1ESqNork4UpR8=
+		uiIegS+lXt8KQ9FPyjxUbMHDD3U=
 		</data>
 		<key>CalculateSize.storyboardc/CalculateSizeVC.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Kleep.momd/Kleep v2.mom</key>
 		<data>
-		qmSgSA+EK5A/KEaEd4ug4H3gSgI=
+		nUef21h3cOI1Iv3V8mviTyYgLx4=
 		</data>
 		<key>Kleep.momd/Kleep v2.omo</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Kleep.momd/Kleep.mom</key>
 		<data>
-		vA9foNYN0bNZ6DLBvzZXyeXgLfc=
+		p1JOQ7AkMqo/Tow453Y3FBU9uhg=
 		</data>
 		<key>Kleep.momd/VersionInfo.plist</key>
 		<data>
@@ -64,11 +64,29 @@
 		<data>
 		toE23jpFWFQFyGOCLxzOmbpgJ8s=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OS/SvUnSxTcnXfvBsO8bz4OKzzc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gvampDT29FH7YUmQVkKHk1HwpWA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Yu/qDhDzhyrJ1ku6gFUMGM4Mdvw=
+			mkeFFXse8aTWYF7bBjzKrX4WcjU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,6 +95,33 @@
 		<data>
 		bEjI1EhlwDsL+ALten4LZTZQuTI=
 		</data>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wSAmDieeGsBBiJSU3COYDSlEw5Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aQx5n/YMCogzeIVbZOIzqfEUmo4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WN/AaI+ALG5wCW+tTHU8nNxLQHU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -84,11 +129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cm8fvBqEh6+Mkh1ESqNork4UpR8=
+			uiIegS+lXt8KQ9FPyjxUbMHDD3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			hB8HPTH/d4ThK3F5NFtfxUkknLtMPOQ2aa1U+Aar4is=
+			opgJ2ENKK5HBt8Hf4jSeTtl0qqGcpSkzbUuTD80FtIA=
 			</data>
 		</dict>
 		<key>CalculateSize.storyboardc/CalculateSizeVC.nib</key>
@@ -183,11 +228,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qmSgSA+EK5A/KEaEd4ug4H3gSgI=
+			nUef21h3cOI1Iv3V8mviTyYgLx4=
 			</data>
 			<key>hash2</key>
 			<data>
-			dg9pVnYQkn6LSoRiAlXX4IGKQgIPUOtZWuUyWmgF7IQ=
+			59tU3g7//Uz8xBAqxUlelOWwHlUfC1UdP1pi7QF45x0=
 			</data>
 		</dict>
 		<key>Kleep.momd/Kleep v2.omo</key>
@@ -205,11 +250,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vA9foNYN0bNZ6DLBvzZXyeXgLfc=
+			p1JOQ7AkMqo/Tow453Y3FBU9uhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			iXqZS3z4ZzHlODgQrKcF6X85AYHbLNbagxCM2iPIqyA=
+			2TrY9/MiHZYQS0LiUQCL2KHdbqDUYSYiArTQQQ0ebQA=
 			</data>
 		</dict>
 		<key>Kleep.momd/VersionInfo.plist</key>
@@ -245,15 +290,41 @@
 			IjXFIiAQPNkKSTriV32tNfpb+48oODPiI8RBKQi6DVM=
 			</data>
 		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OS/SvUnSxTcnXfvBsO8bz4OKzzc=
+			</data>
+			<key>hash2</key>
+			<data>
+			B+g9wl0M3FrkADkWB7ke9npZenzkpB05j1gJrt3xrlc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gvampDT29FH7YUmQVkKHk1HwpWA=
+			</data>
+			<key>hash2</key>
+			<data>
+			vzfY8KWUQxwXSW9GIIzkc1DlHROo/6Q8pZriytwiRPs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Yu/qDhDzhyrJ1ku6gFUMGM4Mdvw=
+			mkeFFXse8aTWYF7bBjzKrX4WcjU=
 			</data>
 			<key>hash2</key>
 			<data>
-			B50DXvgv+heXaQB4RWBSnScaxezfSEHuPEewWrXCOx8=
+			1rRrmuDpbhIT7gCtA0QoQpAS+DUPc1kM+fpg3k5+4Vc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -268,6 +339,45 @@
 			<data>
 			ahueYqtOL+AZ4IbXp05OMO06OOKlY8uXL7c+xMOLwN0=
 			</data>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wSAmDieeGsBBiJSU3COYDSlEw5Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			3aQocg7SwnqRCCZgYQ8bSndVjjGQ7++buhnIv/CI52A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aQx5n/YMCogzeIVbZOIzqfEUmo4=
+			</data>
+			<key>hash2</key>
+			<data>
+			C+NOTaXb3MthHJece/I1IWGnNGxETw/6fc8aBbmNCSc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WN/AaI+ALG5wCW+tTHU8nNxLQHU=
+			</data>
+			<key>hash2</key>
+			<data>
+			m3Be1HetFtkO3ZEQU9xKqSkitcQIl84GFxHC2370Zs8=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

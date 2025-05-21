@@ -1,0 +1,101 @@
+progressPercentage = "%@%%";
+
+cta.ok = "OK";
+cta.continue = "Continue";
+
+suffix.cm = "cm";
+suffix.lbs = "lbs";
+suffix.kg = "kg";
+
+measuredBy.title = "Measured by";
+
+baseInfo.size.title = "Your height";
+baseInfo.weight.title = "Your weight";
+baseInfo.age.title = "Your age";
+navigationBar.title = "Size chart";
+baseInfo.title = "Find your ideal size";
+baseInfo.subtitle = "First, a few questions to get to know you better.";
+genderSelection.title = "Your size system";
+male.title = "Man";
+female.title = "Woman";
+done.title = "Done";
+continue.title = "Continue";
+
+baseInfo.error.height.message = "Please indicate your height.";
+baseInfo.error.weight.message = "Please indicate your weight.";
+baseInfo.error.age.message = "Please indicate your age.";
+
+staticPose.men.chest.title = "Select your torso shape";
+staticPose.men.hip.title = "Select your hip shape";
+staticPose.menWomen.belly.title = "Select your stomach shape";
+
+staticPose.women.description = "This helps us understand your body shape.";
+staticPose.women.hip.title = "Select your hip shape";
+
+staticPose.scanBodyButton.title = "For more accuracy, try the body scan";
+
+braShape.braSize.title = "Select your chest size";
+braShape.braSize.description = "Refer to your bra size";
+
+braShape.braSize.sizeSystem.title = "Country";
+braShape.notRespondButton.title = "I prefer not to answer";
+
+braShape.bandSize.title = "Band size*";
+braShape.cupSize.title = "Cup size*";
+
+plat.title = "Flat";
+moyen.title = "Medium";
+rond.title = "Round";
+fin.title = "Thin";
+large.title = "Large";
+fines.title = "Thin";
+moyenes.title = "Average";
+larges.title = "Large";
+etroit.title = "Slim";
+
+videoInstruction.title = "Quick and accurate bodyscan";
+videoInstruction.description = "We guide you to take a front and sideways picture to analyze your silhouette.";
+
+instruction.clothes.title = "Wear tight-fitting clothes.";
+instruction.light.title = "Choose a well-lit place.";
+instruction.forwardPose.title = "Face forward, then sideways.";
+
+camera.firstStep.title = "Front";
+camera.secondStep.title = "Sideways";
+camera.frontPose.title = "TAKE TWO STEPS BACK. FACE FORWARD";
+camera.sidePose.title = "POSE SIDEWAYS";
+camera.scanFigureButton.title = "Scan your silhouette";
+camera.scanFigure.title = "Face forward, then sideways.";
+
+calculationError.title = "Something went wrong. Please check your Internet connection and try again.";
+calculationError.subtitle = "We recommend you to start again to find your ideal size.";
+restart.title = "Restart";
+start.title = "Start";
+
+recommendation.size.title = "Recommended Size";
+
+recommendation.sizeIdeal.title = "Ideal Size";
+recommendation.sizeIdeal.description = "%@ of customers with a %@ to yours were very satisfied with purchasing this item in size %@.";
+
+thousands.title = "Thousands";
+morphology.title = "similar body shape";
+
+recommendation.bigSizePossible.description = "For a looser fit, choose size %@.";
+recommendation.smallSizePossible.description = "For a slimmer fit, choose size %@.";
+recommendation.bigSizeNotPossible.description = "Based on your body shape, size %@ will be too large. We recommend choosing a smaller size.";
+recommendation.smallSizeNotPossible.description = "Based on your body shape, size %@ will be too small. We recommend choosing a larger size.";
+recommendation.noIdealSize.title = "Unfortunately, this size is unavailable.";
+recommendation.addToCartButton.title = "Add size %@ to the cart.";
+recommendation.similarProducts.title = "Similar products available in this size:";
+
+lowerSize.title = "Fitter";
+idealSize.title = "Ideal";
+biggerSize.title = "Slimmer";
+
+calculateSize.title = "We're calculating your ideal size!";
+calculateSize.description = "You'll be redirected in %.0f seconds maximum.";
+
+noInternetConnection.title = "We're facing a problem...";
+noInternetConnection.subtitle = "Please check your network in your settings and retry.";
+noInternetConnection.refreshButton.title = "Refresh";
+noInternetConnection.quitButton.title = "Quit";

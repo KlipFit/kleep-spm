@@ -13675,6 +13675,191 @@
             "moduleName": "Klipfit"
           },
           {
+            "kind": "Var",
+            "name": "en",
+            "printedName": "en",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2enyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2enyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "nl",
+            "printedName": "nl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2nlyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2nlyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "it",
+            "printedName": "it",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2ityA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2ityA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "es",
+            "printedName": "es",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2esyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2esyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "pt",
+            "printedName": "pt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2ptyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2ptyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -15156,8 +15341,22 @@
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1313,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1353,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1288,
+      "offset": 1438,
       "length": 2,
       "value": "13"
     },
@@ -15219,64 +15418,106 @@
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3451,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3504,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3427,
+      "offset": 3559,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3568,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3579,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3589,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3623,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3618,
+      "offset": 3814,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 4003,
       "length": 9,
       "value": "\"#FDF4D5\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3847,
+      "offset": 4043,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4025,
+      "offset": 4221,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4167,
+      "offset": 4363,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4394,
+      "offset": 4590,
       "length": 2,
-      "value": "14"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4968,
+      "offset": 5164,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Projects\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12799,
+      "offset": 12995,
       "length": 4,
       "value": "true"
     },
