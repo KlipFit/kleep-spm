@@ -1,4 +1,3 @@
-
 progressPercentage = "%@%%";
 
 cta.ok = "OK";
@@ -57,7 +56,7 @@ etroit.title = "Etroit";
 videoInstruction.title = "Scan corporel précis et rapide";
 videoInstruction.description = "Pour analyser votre silhouette, nous vous\nguidons pour prendre une photo de face\npuis de profil.";
 
-instruction.clothes.title = "Portez des vêtements proche\ndu corps.";
+instruction.clothes.title = "Portez des vêtements proches\ndu corps.";
 instruction.light.title = "Choisissez un endroit bien\néclairé.";
 instruction.forwardPose.title = "Posez de face, puis de profil.";
 

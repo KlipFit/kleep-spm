@@ -1,0 +1,101 @@
+progressPercentage = "%@%%";
+
+cta.ok = "OK";
+cta.continue = "DOORGAAN";
+
+suffix.cm = "cm";
+suffix.lbs = "lbs";
+suffix.kg = "kg";
+
+measuredBy.title = "Measured by";
+
+baseInfo.size.title = "Lengte*";
+baseInfo.weight.title = "Gewicht*";
+baseInfo.age.title = "Leeftijd*";
+navigationBar.title = "Maattabel";
+baseInfo.title = "Vind je maat voor elk van onze artikelen";
+baseInfo.subtitle = "Om te beginnen wat vragen om je beter te leren kennen.";
+genderSelection.title = "Je bent";
+male.title = "Man";
+female.title = "Vrouw";
+done.title = "Done";
+continue.title = "DOORGAAN";
+
+baseInfo.error.height.message = "Vul je lengte in";
+baseInfo.error.weight.message = "Vul je gewicht in";
+baseInfo.error.age.message = "Vul je leeftijd in";
+
+staticPose.men.chest.title = "Kies de vorm van uw borstkas";
+staticPose.men.hip.title = "Kies de vorm van uw dijen";
+staticPose.menWomen.belly.title = "Kies de vorm van uw buik";
+
+staticPose.women.description = "Dit helpt ons om uw silhouet te begrijpen";
+staticPose.women.hip.title = "Kies de vorm van uw heupen";
+
+staticPose.scanBodyButton.title = "Voor meer nauwkeurigheid, probeer de bodyscan.";
+
+braShape.braSize.title = "Kies de vorm van je borsten";
+braShape.braSize.description = "Kijk naar je bh-maat";
+
+braShape.braSize.sizeSystem.title = "Land";
+braShape.notRespondButton.title = "Ik geef liever geen antwoord";
+
+braShape.bandSize.title = "Maat*";
+braShape.cupSize.title = "Beha-cup*";
+
+plat.title = "Plat";
+moyen.title = "Gemiddeld";
+rond.title = "Rond";
+fin.title = "Slank";
+large.title = "Breed";
+fines.title = "Slank";
+moyenes.title = "Gemiddeld";
+larges.title = "Breed";
+etroit.title = "Slank";
+
+videoInstruction.title = "Vind je maat voor elk van onze artikelen";
+videoInstruction.description = "Om je silhouet te analyseren, begeleiden we je bij het maken van een vooraanzicht en een zijaanzicht.";
+
+instruction.clothes.title = "Draag nauwsluitende kleding.";
+instruction.light.title = "Kies een goed verlichte plek.";
+instruction.forwardPose.title = "Sta rechtop van voren, daarna van opzij.";
+
+camera.firstStep.title = "Voorkant";
+camera.secondStep.title = "Profiel";
+camera.frontPose.title = "STA VOOR";
+camera.sidePose.title = "STA OPZIJ";
+camera.scanFigureButton.title = "Scan je silhouet";
+camera.scanFigure.title = "Leg je telefoon op de grond tegen een muur.";
+
+calculationError.title = "Oeps";
+calculationError.subtitle = "Er ging iets mis. Controleer uw internetverbinding en probeer het opnieuw.";
+restart.title = "Opnieuw beginnen";
+start.title = "Probeer opnieuw.";
+
+recommendation.size.title = "Aanbevolen maat";
+
+recommendation.sizeIdeal.title = "Ideale maat";
+recommendation.sizeIdeal.description = "%@ klanten met een %@ waren zeer tevreden met dit artikel in maat %@.";
+
+thousands.title = "Duizenden";
+morphology.title = "vergelijkbaar silhouet";
+
+recommendation.bigSizePossible.description = "Voor een voller effect kies je maat %@.";
+recommendation.smallSizePossible.description = "Voor een meer getailleerd effect kies je de maat %@.";
+recommendation.bigSizeNotPossible.description = "Op basis van je lichaamstype zal maat %@ te groot zijn. We raden je aan een kleinere maat te kiezen.";
+recommendation.smallSizeNotPossible.description = "Afhankelijk van je morfologie zal maat %@ te klein zijn. We raden je aan een grotere maat te kiezen.";
+recommendation.noIdealSize.title = "Deze maat is helaas niet beschikbaar.";
+recommendation.addToCartButton.title = "MAAT %@ TOEVOEGEN AAN WINKELWAGEN";
+recommendation.similarProducts.title = "VERGELIJKBARE PRODUCTEN BESCHIKBAAR IN DEZE MAAT:";
+
+lowerSize.title = "Strakkere pasvorm";
+idealSize.title = "Ideaal";
+biggerSize.title = "Ruimere pasvorm";
+
+calculateSize.title = "We berekenen uw ideale maat";
+calculateSize.description = "Je wordt binnen maximaal %.0f seconden doorgestuurd.";
+
+noInternetConnection.title = "Er is een fout opgetreden.";
+noInternetConnection.subtitle = "We konden uw maat niet identificeren.";
+noInternetConnection.refreshButton.title = "Probeer opnieuw.";
+noInternetConnection.quitButton.title = "Probeer de lichaamscan.";

@@ -1,0 +1,101 @@
+progressPercentage = "%@%%";
+
+cta.ok = "OK";
+cta.continue = "CONTINUAR";
+
+suffix.cm = "cm";
+suffix.lbs = "lbs";
+suffix.kg = "kg";
+
+measuredBy.title = "Measured by";
+
+baseInfo.size.title = "Tamaño*";
+baseInfo.weight.title = "Peso*";
+baseInfo.age.title = "Edad*";
+navigationBar.title = "Guía de tallas";
+baseInfo.title = "Encuentra mi talla ideal";
+baseInfo.subtitle = "Algunas preguntas para conocerte mejor.";
+genderSelection.title = "Tù eres";
+male.title = "Hombre";
+female.title = "Mujer";
+done.title = "Done";
+continue.title = "CONTINUAR";
+
+baseInfo.error.height.message = "Por favor, indica tu altura.";
+baseInfo.error.weight.message = "Por favor, indica tu peso.";
+baseInfo.error.age.message = "Por favor, indica tu edad.";
+
+staticPose.men.chest.title = "Elige la forma de tu torso";
+staticPose.men.hip.title = "Elige la forma de tus muslos";
+staticPose.menWomen.belly.title = "Elige la forma de tu barriga";
+
+staticPose.women.description = "Esto nos ayuda a comprender la forma de tu cuerpo.";
+staticPose.women.hip.title = "Elige la forma de tus caderas";
+
+staticPose.scanBodyButton.title = "Para más precisión, prueba el escaneo corporal.";
+
+braShape.braSize.title = "Elije el talle de tu busto";
+braShape.braSize.description = "Consulte la talla de su sujetador.";
+
+braShape.braSize.sizeSystem.title = "País";
+braShape.notRespondButton.title = "Prefiero no contestar";
+
+braShape.bandSize.title = "Talla*";
+braShape.cupSize.title = "Sujetador*";
+
+plat.title = "Plano";
+moyen.title = "Medio";
+rond.title = "Redondo";
+fin.title = "Fino";
+large.title = "Grande";
+fines.title = "Finas";
+moyenes.title = "Promedio";
+larges.title = "Grandes";
+etroit.title = "Delgado";
+
+videoInstruction.title = "Encuentra tu talla ideal para cada uno de nuestros productos";
+videoInstruction.description = "Para analizar tu silueta, te guiaremos a través de la toma de una foto frontal y una de perfil.";
+
+instruction.clothes.title = "Usa ropa ajustada";
+instruction.light.title = "Elige un lugar bien iluminado";
+instruction.forwardPose.title = "Mira hacia adelante y luego de perfil";
+
+camera.firstStep.title = "Frontal";
+camera.secondStep.title = "De perfil";
+camera.frontPose.title = "PONTE DE FRENTE";
+camera.sidePose.title = "PONTE DE PERFIL";
+camera.scanFigureButton.title = "Escanea tu silueta";
+camera.scanFigure.title = "Coloca el teléfono en el suelo contra una pared.";
+
+calculationError.title = "Algo salió mal. Verifica tu conexión a internet e inténtalo de nuevo.";
+calculationError.subtitle = "Te recomendamos empezar de nuevo para encontrar tu talla ideal.";
+restart.title = "Empezar de nuevo";
+start.title = "Comenzar";
+
+recommendation.size.title = "Talla recomendada";
+
+recommendation.sizeIdeal.title = "Talla ideal";
+recommendation.sizeIdeal.description = "%@ de clientes con una %@ a la tuya estuvieron muy satisfechos al comprar este artículo en la talla %@.";
+
+thousands.title = "Miles";
+morphology.title = "silueta similar";
+
+recommendation.bigSizePossible.description = "Para un efecto más voluminoso, elija la talla %@.";
+recommendation.smallSizePossible.description = "Para un efecto más entallado, elija la talla %@.";
+recommendation.bigSizeNotPossible.description = "Según tu silueta, la talla %@ será demasiado grande. Te recomendamos una talla más pequeña.";
+recommendation.smallSizeNotPossible.description = "Según tu silueta, la talla %@ será demasiado pequeña. Te recomendamos una talla más grande.";
+recommendation.noIdealSize.title = "Lamentablemente, esta talla no está disponible.";
+recommendation.addToCartButton.title = "AÑADIR TALLA %@ AL CARRITO";
+recommendation.similarProducts.title = "PRODUCTOS SIMILARES DISPONIBLES EN ESTA TALLA:";
+
+lowerSize.title = "Más ajustada";
+idealSize.title = "Ideal";
+biggerSize.title = "Más amplia";
+
+calculateSize.title = "¡Estamos calculando tu talla ideal!";
+calculateSize.description = "Serás redirigido en un máximo de %.0f segundos.";
+
+noInternetConnection.title = "Uy, ha ocurrido un error...";
+noInternetConnection.subtitle = "Verifica tu conexión en la configuración e inténtalo de nuevo.";
+noInternetConnection.refreshButton.title = "Actualizar";
+noInternetConnection.quitButton.title = "Salir";
