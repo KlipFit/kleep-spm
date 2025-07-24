@@ -9,13 +9,13 @@ suffix.kg = "kg";
 
 measuredBy.title = "Measured by";
 
-baseInfo.size.title = "Tamaño*";
+baseInfo.size.title = "Altura*";
 baseInfo.weight.title = "Peso*";
 baseInfo.age.title = "Edad*";
 navigationBar.title = "Guía de tallas";
-baseInfo.title = "Encuentra mi talla ideal";
+baseInfo.title = "Encontrar mi talla ideal";
 baseInfo.subtitle = "Algunas preguntas para conocerte mejor.";
-genderSelection.title = "Tù eres";
+genderSelection.title = "Eres…";
 male.title = "Hombre";
 female.title = "Mujer";
 done.title = "Done";
@@ -25,17 +25,17 @@ baseInfo.error.height.message = "Por favor, indica tu altura.";
 baseInfo.error.weight.message = "Por favor, indica tu peso.";
 baseInfo.error.age.message = "Por favor, indica tu edad.";
 
-staticPose.men.chest.title = "Elige la forma de tu torso";
-staticPose.men.hip.title = "Elige la forma de tus muslos";
-staticPose.menWomen.belly.title = "Elige la forma de tu barriga";
+staticPose.men.chest.title = "Elije la forma de tu torso";
+staticPose.men.hip.title = "Elije la forma de tus muslos";
+staticPose.menWomen.belly.title = "Elije la forma de tu vientre";
 
-staticPose.women.description = "Esto nos ayuda a comprender la forma de tu cuerpo.";
-staticPose.women.hip.title = "Elige la forma de tus caderas";
+staticPose.women.description = "Esto nos ayudará a entender la forma de tu cuerpo.";
+staticPose.women.hip.title = "Elije la forma de tus caderas";
 
 staticPose.scanBodyButton.title = "Para más precisión, prueba el escaneo corporal.";
 
-braShape.braSize.title = "Elije el talle de tu busto";
-braShape.braSize.description = "Consulte la talla de su sujetador.";
+braShape.braSize.title = "Elije la forma de tu torso";
+braShape.braSize.description = "Comprueba tu talla de sujetador";
 
 braShape.braSize.sizeSystem.title = "País";
 braShape.notRespondButton.title = "Prefiero no contestar";
@@ -44,20 +44,20 @@ braShape.bandSize.title = "Talla*";
 braShape.cupSize.title = "Sujetador*";
 
 plat.title = "Plano";
-moyen.title = "Medio";
+moyen.title = "Medianas";
 rond.title = "Redondo";
 fin.title = "Fino";
 large.title = "Grande";
 fines.title = "Finas";
 moyenes.title = "Promedio";
-larges.title = "Grandes";
-etroit.title = "Delgado";
+larges.title = "Anchas";
+etroit.title = "Estrechas";
 
 videoInstruction.title = "Encuentra tu talla ideal para cada uno de nuestros productos";
 videoInstruction.description = "Para analizar tu silueta, te guiaremos a través de la toma de una foto frontal y una de perfil.";
 
 instruction.clothes.title = "Usa ropa ajustada";
-instruction.light.title = "Elige un lugar bien iluminado";
+instruction.light.title = "Elije un lugar bien iluminado";
 instruction.forwardPose.title = "Mira hacia adelante y luego de perfil";
 
 camera.firstStep.title = "Frontal";

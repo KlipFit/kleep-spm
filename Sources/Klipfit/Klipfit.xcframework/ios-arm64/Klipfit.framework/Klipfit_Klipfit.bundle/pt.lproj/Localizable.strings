@@ -10,53 +10,53 @@ suffix.kg = "kg";
 
 measuredBy.title = "Measured by";
 
-baseInfo.size.title = "Sua altura";
-baseInfo.weight.title = "Seu peso";
-baseInfo.age.title = "Sua idade";
+baseInfo.size.title = "A sua altura";
+baseInfo.weight.title = "O seu peso";
+baseInfo.age.title = "A sua idade";
 navigationBar.title = "Guia de tamanhos";	
 baseInfo.title = "Encontre o seu tamanho ideal";
-baseInfo.subtitle = "Algumas perguntas para te conhecer melhor.";
+baseInfo.subtitle = "Algumas perguntas para o(a) conhecer melhor.";
 genderSelection.title = "O seu sistema de tamanhos";
 male.title = "Homem";
 female.title = "Mulher";
 done.title = "Done";
 continue.title = "Continuar";
 
-baseInfo.error.height.message = "Por favor, indique sua altura.";
-baseInfo.error.weight.message = "Por favor, indique seu peso.";
-baseInfo.error.age.message = "Por favor, indique sua idade.";
+baseInfo.error.height.message = "Por favor, indique a sua altura.";
+baseInfo.error.weight.message = "Por favor, indique o seu peso.";
+baseInfo.error.age.message = "Por favor, indique a sua idade.";
 
 staticPose.men.chest.title = "Escolha o formato do seu torso";
 staticPose.men.hip.title = "Escolha o formato das suas coxas";
 staticPose.menWomen.belly.title = "Escolha o formato da sua barriga";
 
-staticPose.women.description = "Isso nos ajuda a entender sua silhueta";
+staticPose.women.description = "Isso ajuda-nos a entender sua silhueta";
 staticPose.women.hip.title = "Escolha o formato da seu pélvis";
 
 staticPose.scanBodyButton.title = "Não tem a certeza? Experimente o scanner corporal";
 
 braShape.braSize.title = "Escolha o formato do seus seios";
-braShape.braSize.description = "Fai riferimento alla tua taglia di reggiseno.";
+braShape.braSize.description = "Consulte o tamanho do seu soutien.";
 
 braShape.braSize.sizeSystem.title = "O seu sistema de tamanhos";
 braShape.notRespondButton.title = "Prefiro não responder";
 
 braShape.bandSize.title = "Tamanho*";
-braShape.cupSize.title = "Copo*";
+braShape.cupSize.title = "CopA*";
 
 plat.title = "Plano";
 moyen.title = "Médio";
 rond.title = "Redondo";
 fin.title = "Fino";
 large.title = "Largo";
-fines.title = "Sottili";
-moyenes.title = "Medie";
-larges.title = "Larghe";
-etroit.title = "Snello";
+fines.title = "Finas";
+moyenes.title = "Médias";
+larges.title = "Largas";
+etroit.title = "Estreito";
 
 
-videoInstruction.title = "Scansione corporea precisa e rapida";
-videoInstruction.description = "Ti guidiamo per scattare una foto frontale e laterale per analizzare la tua silhouette.";
+videoInstruction.title = "Scan corporal rápido e preciso";
+videoInstruction.description = "Para analisar a sua silhueta, guiamo-lo(a) para tirar uma fotografia de frente e depois uma fotografia de perfil.";
 
 instruction.clothes.title = "Indossa abiti aderenti.";
 instruction.light.title = "Escolha um lugar bem iluminado.";
@@ -66,11 +66,11 @@ camera.firstStep.title = "Frente";
 camera.secondStep.title = "Perfil";
 camera.frontPose.title = "Dê dois passos para trás. Fique de frente.";
 camera.sidePose.title = "Perfil";
-camera.scanFigureButton.title = "Scansione della silhouette";
+camera.scanFigureButton.title = "Faça um scan da sua silhueta";
 camera.scanFigure.title = "Coloque o seu telefone no chão contra uma parede.";
 
 calculationError.title = "Infelizmente, ocorreu um erro";
-calculationError.subtitle = "Convidamo-lo a experimentar novamente para encontrar o seu tamanho ideal.";
+calculationError.subtitle = "Convidamo-lo(a) a experimentar novamente para encontrar o seu tamanho ideal.";
 restart.title = "Recomeçar";
 start.title = "Começar";
 
@@ -84,18 +84,18 @@ morphology.title = "mesma morfologia";
 
 recommendation.bigSizePossible.description = "Para um efeito mais largo, escolha o tamanho %@.";
 recommendation.smallSizePossible.description = "Para um efeito mais ajustado, escolha o tamanho %@.";
-recommendation.bigSizeNotPossible.description = "Com base em sua morfologia, o tamanho %@ será muito grande. Sugerimos escolher um tamanho menor.";
-recommendation.smallSizeNotPossible.description = "Com base em sua morfologia, o tamanho %@ será muito pequeno. Sugerimos escolher um tamanho maior.";
+recommendation.bigSizeNotPossible.description = "Com base na sua morfologia, o tamanho %@ será muito grande. Sugerimos escolher um tamanho menor.";
+recommendation.smallSizeNotPossible.description = "Com base na sua morfologia, o tamanho %@ será muito pequeno. Sugerimos escolher um tamanho maior.";
 recommendation.noIdealSize.title = "Infelizmente, este tamanho não está disponível.";
-recommendation.addToCartButton.title = "Adicionar tamanho %@ ao carrinho";
+recommendation.addToCartButton.title = "Adicionar o tamanho %@ ao carrinho";
 recommendation.similarProducts.title = "Produtos similares disponíveis neste tamanho:";
 
 lowerSize.title = "Mais ajustado";
 idealSize.title = "Ideal";
 biggerSize.title = "Mais largo";
 
-calculateSize.title = "Calculando o seu tamanho ideal";
-calculateSize.description = "Será redireccionado em %.0f segundos no máximo.";
+calculateSize.title = "A calcular o seu tamanho ideal";
+calculateSize.description = "Será redireccionado(a) em %.0f segundos no máximo.";
 
 noInternetConnection.title = "Temos um problema...";
 noInternetConnection.subtitle = "Verifique a sua ligação à Internet nas definições e tente novamente.";
