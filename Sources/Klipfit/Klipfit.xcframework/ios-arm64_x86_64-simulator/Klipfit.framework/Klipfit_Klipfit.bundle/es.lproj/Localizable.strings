@@ -44,14 +44,14 @@ braShape.bandSize.title = "Talla*";
 braShape.cupSize.title = "Sujetador*";
 
 plat.title = "Plano";
-moyen.title = "Medianas";
+moyen.title = "Mediano";
 rond.title = "Redondo";
 fin.title = "Fino";
 large.title = "Grande";
-fines.title = "Finas";
-moyenes.title = "Promedio";
-larges.title = "Anchas";
-etroit.title = "Estrechas";
+fines.title = "Finos";
+moyenes.title = "Medianos";
+larges.title = "Anchos";
+etroit.title = "Estrechos";
 
 videoInstruction.title = "Encuentra tu talla ideal para cada uno de nuestros productos";
 videoInstruction.description = "Para analizar tu silueta, te guiaremos a través de la toma de una foto frontal y una de perfil.";

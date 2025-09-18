@@ -26,7 +26,7 @@ baseInfo.error.weight.message = "Vul je gewicht in";
 baseInfo.error.age.message = "Vul je leeftijd in";
 
 staticPose.men.chest.title = "Kies de vorm van uw borstkas";
-staticPose.men.hip.title = "Kies de vorm van uw dijen";
+staticPose.men.hip.title = "Kies de vorm van uw heupen";
 staticPose.menWomen.belly.title = "Kies de vorm van uw buik";
 
 staticPose.women.description = "Dit helpt ons om uw silhouet te begrijpen";
