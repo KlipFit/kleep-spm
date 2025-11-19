@@ -42,7 +42,7 @@ braShape.braSize.sizeSystem.title = "O seu sistema de tamanhos";
 braShape.notRespondButton.title = "Prefiro não responder";
 
 braShape.bandSize.title = "Tamanho*";
-braShape.cupSize.title = "CopA*";
+braShape.cupSize.title = "Copa*";
 
 plat.title = "Plano";
 moyen.title = "Médio";

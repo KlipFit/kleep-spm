@@ -49,10 +49,10 @@ moyen.title = "Medio";
 rond.title = "Arrotondato";
 fin.title = "Snello";
 large.title = "Largo";
-fines.title = "Finas";
+fines.title = "Piccole";
 moyenes.title = "Médias";
 larges.title = "Largas";
-etroit.title = "Magro";
+etroit.title = "Stretto";
 
 videoInstruction.title = "Varredura corporal rápida e precisa";
 videoInstruction.description = "Guiamos você para tirar uma foto de frente e de perfil para analisar sua silhueta.";
@@ -89,7 +89,7 @@ recommendation.noIdealSize.title = "Questa taglia non è purtroppo disponibile."
 recommendation.addToCartButton.title = "Aggiungi taglia %@ al carrello";
 recommendation.similarProducts.title = "Prodotti simili disponibili in questa taglia";
 
-lowerSize.title = "Più adeguata";
+lowerSize.title = "Più aderente";
 idealSize.title = "Ideale";
 biggerSize.title = "Più ampia";
 
