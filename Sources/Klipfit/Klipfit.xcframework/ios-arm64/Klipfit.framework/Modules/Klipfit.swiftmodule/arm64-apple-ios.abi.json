@@ -14731,20 +14731,20 @@
       "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "Array",
       "offset": 107,
-      "length": 135,
-      "value": "[\"com.showroomprive.showroompriveiphone\", \"com.showroomprive.showroom.entreprise\"]"
+      "length": 214,
+      "value": "[\"com.showroomprive.showroompriveiphone\", \"com.showroomprive.showroom.entreprise\", \"com.lacoste.norcam.dev\"]"
     },
     {
       "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "Array",
-      "offset": 298,
+      "offset": 377,
       "length": 168,
       "value": "[\"com.app.KleepApp\", \"com.kleep.Kleep-DEV\", \"com.kleepdebug.test\"]"
     },
     {
       "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "BooleanLiteral",
-      "offset": 531,
+      "offset": 610,
       "length": 4,
       "value": "true"
     },
