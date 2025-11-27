@@ -14730,21 +14730,28 @@
     {
       "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "Array",
-      "offset": 107,
-      "length": 214,
-      "value": "[\"com.showroomprive.showroompriveiphone\", \"com.showroomprive.showroom.entreprise\", \"com.lacoste.norcam.dev\"]"
+      "offset": 113,
+      "length": 16,
+      "value": "[\"com.lacoste.\"]"
     },
     {
       "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "Array",
-      "offset": 377,
+      "offset": 187,
+      "length": 135,
+      "value": "[\"com.showroomprive.showroompriveiphone\", \"com.showroomprive.showroom.entreprise\"]"
+    },
+    {
+      "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
+      "kind": "Array",
+      "offset": 378,
       "length": 168,
       "value": "[\"com.app.KleepApp\", \"com.kleep.Kleep-DEV\", \"com.kleepdebug.test\"]"
     },
     {
       "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "BooleanLiteral",
-      "offset": 610,
+      "offset": 611,
       "length": 4,
       "value": "true"
     },
