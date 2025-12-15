@@ -979,6 +979,34 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -16322,6 +16350,48 @@
       "offset": 816,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/Helper\/CDNStringLoading\/CDNStringLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 26,
+      "value": "\"https:\/\/cdn.kleep.ai\/app\""
+    },
+    {
+      "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/Helper\/CDNStringLoading\/RetailerUUIDResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 39,
+      "value": "\"https:\/\/cdn.kleep.ai\/retailer_map.csv\""
+    },
+    {
+      "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/Helper\/CDNStringLoading\/RetailerUUIDResolver.swift",
+      "kind": "Dictionary",
+      "offset": 352,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/Helper\/CDNStringLoading\/RetailerUUIDResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 29,
+      "value": "\"com.kleep.retailerUUIDCache\""
+    },
+    {
+      "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/Helper\/CDNStringLoading\/StringRepository.swift",
+      "kind": "Dictionary",
+      "offset": 900,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/Helper\/CDNStringLoading\/StringRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 23,
+      "value": "\"com.kleep.stringCache\""
     },
     {
       "filePath": "\/Users\/theophilebousquet\/Desktop\/Kleep\/2-Dev\/kleep-ios\/Sources\/Klipfit\/Helper\/CameraManager.swift",
