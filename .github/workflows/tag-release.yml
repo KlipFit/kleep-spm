@@ -1,0 +1,39 @@
+# Tags master with <version> when a `release-<version>` PR is merged
+# (last step of the Notion "Mobile SDK: Create iOS .xcframework" process).
+
+name: Tag release
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [master]
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'release-')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+
+      - name: Tag merge commit
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          SHA: ${{ github.event.pull_request.merge_commit_sha }}
+        run: |
+          set -euo pipefail
+          version="${HEAD_REF#release-}"
+          if ! echo "$version" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+            echo "::error::Branch $HEAD_REF does not carry a X.Y.Z version"; exit 1
+          fi
+          git fetch -q --tags
+          if git rev-parse -q --verify "refs/tags/$version" >/dev/null; then
+            echo "::notice::Tag $version already exists"; exit 0
+          fi
+          git tag "$version" "$SHA"
+          git push origin "$version"
+          echo "::notice::Tagged $SHA as $version"
