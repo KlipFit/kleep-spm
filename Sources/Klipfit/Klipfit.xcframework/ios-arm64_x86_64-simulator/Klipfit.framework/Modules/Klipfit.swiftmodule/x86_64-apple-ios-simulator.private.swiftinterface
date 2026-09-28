@@ -320,15 +320,15 @@ extension Swift.Optional : AnyOptional {
   public static let shared: SharedInstance
   @objc deinit
 }
-public struct Klipfit {
+@preconcurrency @_Concurrency.MainActor public struct Klipfit {
   public typealias SizeBlock = (_ size: Swift.String) -> Swift.Void
-  public static var shared: Klipfit
-  public func openSDKfromSwiftUI(productID: Swift.String, trackingID: Swift.String)
-  public func openSDKFrom(productID: Swift.String, trackingID: Swift.String, viewController: UIKit.UIViewController)
-  public func requestSize(productID: Swift.String, retailerName: Swift.String, trackingID: Swift.String = "", customerID: Swift.String = "", isShowLoader: Swift.Bool = true, handler: @escaping (_ kleepResult: KleepResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public static let shared: Klipfit
+  @_Concurrency.MainActor @preconcurrency public func openSDKfromSwiftUI(productID: Swift.String, trackingID: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func openSDKFrom(productID: Swift.String, trackingID: Swift.String, viewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency public func requestSize(productID: Swift.String, retailerName: Swift.String, trackingID: Swift.String = "", customerID: Swift.String = "", isShowLoader: Swift.Bool = true, handler: @escaping (_ kleepResult: KleepResult) -> Swift.Void)
 }
 extension Klipfit {
-  public func track(eventName: Swift.String, parameters: [Swift.String : Any]? = nil)
+  @_Concurrency.MainActor @preconcurrency public func track(eventName: Swift.String, parameters: [Swift.String : Any]? = nil)
 }
 @_inheritsConvenienceInitializers @objc(KleepCoreDataProduct) nonisolated public class KleepCoreDataProduct : CoreData.NSManagedObject {
   @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
@@ -476,5 +476,6 @@ extension HNTextField.FloatingDisplayStatus : Swift.Equatable {}
 extension HNTextField.FloatingDisplayStatus : Swift.Hashable {}
 extension HNTextField.HNBorderStyle : Swift.Equatable {}
 extension HNTextField.HNBorderStyle : Swift.Hashable {}
+extension Klipfit : Swift.Sendable {}
 extension KleepLanguageCode : Swift.Equatable {}
 extension KleepLanguageCode : Swift.Hashable {}
