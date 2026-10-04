@@ -27,6 +27,13 @@
       },
       {
         "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -14733,31 +14740,24 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
-      "kind": "Array",
-      "offset": 113,
-      "length": 16,
-      "value": "[\"com.lacoste.\"]"
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 36,
+      "value": "\"https:\/\/cdn.kleep.ai\/sdk-apps.json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 23,
+      "value": "\"kleep_sdk_apps_config\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
       "kind": "Array",
-      "offset": 187,
-      "length": 210,
-      "value": "[\"com.showroomprive.showroompriveiphone\", \"com.showroomprive.showroom.entreprise\", \"com.vennapps.soeur\"]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
-      "kind": "Array",
-      "offset": 453,
+      "offset": 1041,
       "length": 168,
       "value": "[\"com.app.KleepApp\", \"com.kleep.Kleep-DEV\", \"com.kleepdebug.test\"]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/BundleValidator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 686,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
