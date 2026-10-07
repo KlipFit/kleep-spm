@@ -72,11 +72,16 @@ jobs:
             echo "::notice::Release $VERSION already exists"; exit 0
           fi
 
+          # The tag is what Swift Package Manager resolves: create it on its
+          # own first, so a failing release API never leaves it missing.
           if TAG_SHA=$(gh api "repos/$GH_REPO/commits/refs/tags/$VERSION" --jq .sha 2>/dev/null); then
             if [ "$TAG_SHA" != "$SHA" ]; then
               echo "::error::Tag $VERSION already points to $TAG_SHA, not the merge commit $SHA"; exit 1
             fi
-            echo "::notice::Tag $VERSION already exists, creating the release only"
+            echo "::notice::Tag $VERSION already exists"
+          else
+            gh api "repos/$GH_REPO/git/refs" -f ref="refs/tags/$VERSION" -f sha="$SHA" >/dev/null
+            echo "::notice::Tagged $VERSION at $SHA"
           fi
 
           LATEST=$(git ls-remote --tags --refs "https://github.com/$GH_REPO" \
@@ -84,6 +89,13 @@ jobs:
             | { cat; echo "$VERSION"; } | sort -V | tail -1)
           if [ "$LATEST" = "$VERSION" ]; then LATEST_FLAG=--latest; else LATEST_FLAG=--latest=false; fi
 
-          gh release create "$VERSION" --target "$SHA" --title "$VERSION" \
-            --notes "Klipfit $VERSION" "$LATEST_FLAG"
-          echo "::notice::Released $VERSION at $SHA"
+          for attempt in 1 2 3; do
+            if gh release create "$VERSION" --verify-tag --title "$VERSION" \
+                 --notes "Klipfit $VERSION" "$LATEST_FLAG"; then
+              echo "::notice::Released $VERSION at $SHA"; exit 0
+            fi
+            gh release view "$VERSION" >/dev/null 2>&1 && { echo "::notice::Released $VERSION at $SHA"; exit 0; }
+            sleep $((attempt * 15))
+          done
+          echo "::error::Tag $VERSION is published (SPM can resolve it) but creating the GitHub Release failed"
+          exit 1
