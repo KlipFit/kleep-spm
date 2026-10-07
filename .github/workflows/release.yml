@@ -1,0 +1,89 @@
+# Publishes the GitHub Release (and its X.Y.Z tag) when a `release-X.Y.Z`
+# PR is merged into master. Swift Package Manager resolves versions from
+# that tag, so integrators only see the update once this has run.
+#
+# Can also be run by hand (Actions > Release > Run workflow) for a version
+# whose release PR is already merged.
+#
+# Idempotent: does nothing if the release already exists, and reuses the tag
+# if only the tag exists.
+
+name: Release
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to release (X.Y.Z). Its release-X.Y.Z PR must be merged."
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       github.event.pull_request.head.repo.full_name == github.repository &&
+       startsWith(github.event.pull_request.head.ref, 'release-'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      HEAD_REF: ${{ github.event.pull_request.head.ref }}
+      MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+      INPUT_VERSION: ${{ inputs.version }}
+    steps:
+      - name: Resolve version and commit
+        id: resolve
+        run: |
+          set -euo pipefail
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            VERSION="$INPUT_VERSION"
+            MERGE_SHA=$(gh pr list --state merged --base master --head "release-$VERSION" \
+              --json mergeCommit --jq '.[0].mergeCommit.oid // empty')
+            [ -n "$MERGE_SHA" ] || { echo "::error::No merged release-$VERSION PR into master"; exit 1; }
+          else
+            VERSION="${HEAD_REF#release-}"
+          fi
+          if ! echo "$VERSION" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+            echo "::error::'$VERSION' is not X.Y.Z"; exit 1
+          fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "sha=$MERGE_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Create tag and release
+        env:
+          VERSION: ${{ steps.resolve.outputs.version }}
+          SHA: ${{ steps.resolve.outputs.sha }}
+        run: |
+          set -euo pipefail
+          if gh release view "$VERSION" >/dev/null 2>&1; then
+            echo "::notice::Release $VERSION already exists"; exit 0
+          fi
+
+          if TAG_SHA=$(gh api "repos/$GH_REPO/commits/refs/tags/$VERSION" --jq .sha 2>/dev/null); then
+            if [ "$TAG_SHA" != "$SHA" ]; then
+              echo "::error::Tag $VERSION already points to $TAG_SHA, not the merge commit $SHA"; exit 1
+            fi
+            echo "::notice::Tag $VERSION already exists, creating the release only"
+          fi
+
+          LATEST=$(git ls-remote --tags --refs "https://github.com/$GH_REPO" \
+            | sed 's#.*refs/tags/##' | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' \
+            | { cat; echo "$VERSION"; } | sort -V | tail -1)
+          if [ "$LATEST" = "$VERSION" ]; then LATEST_FLAG=--latest; else LATEST_FLAG=--latest=false; fi
+
+          gh release create "$VERSION" --target "$SHA" --title "$VERSION" \
+            --notes "Klipfit $VERSION" "$LATEST_FLAG"
+          echo "::notice::Released $VERSION at $SHA"
