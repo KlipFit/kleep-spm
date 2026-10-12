@@ -303,6 +303,33 @@
         "children": [
           {
             "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Klipfit@objc(cs)KlipftNavigationController(im)viewDidLoad",
+            "mangledName": "$s7Klipfit26KlipftNavigationControllerC11viewDidLoadyyF",
+            "moduleName": "Klipfit",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "loadView",
             "printedName": "loadView(productID:retailerName:language:trackingID:customerID:stocks:onResult:)",
             "children": [
@@ -794,6 +821,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -817,6 +851,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Klipfit"
       },
@@ -10282,6 +10323,76 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -10362,6 +10473,109 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useRetailerTheme",
+            "printedName": "useRetailerTheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7KlipfitAAV16useRetailerThemeSbvp",
+            "mangledName": "$s7KlipfitAAV16useRetailerThemeSbvp",
+            "moduleName": "Klipfit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "SPIAccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "Kleep"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7KlipfitAAV16useRetailerThemeSbvg",
+                "mangledName": "$s7KlipfitAAV16useRetailerThemeSbvg",
+                "moduleName": "Klipfit",
+                "spi_group_names": [
+                  "Kleep"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7KlipfitAAV16useRetailerThemeSbvs",
+                "mangledName": "$s7KlipfitAAV16useRetailerThemeSbvs",
+                "moduleName": "Klipfit",
+                "declAttributes": [
+                  "NonMutating"
+                ],
+                "spi_group_names": [
+                  "Kleep"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7KlipfitAAV16useRetailerThemeSbvM",
+                "mangledName": "$s7KlipfitAAV16useRetailerThemeSbvM",
+                "moduleName": "Klipfit",
+                "implicit": true,
+                "declAttributes": [
+                  "SPIAccessControl"
+                ],
+                "spi_group_names": [
+                  "Kleep"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -14762,14 +14976,14 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 405,
+      "offset": 565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 463,
+      "offset": 623,
       "length": 5,
       "value": "false"
     },
@@ -14804,79 +15018,86 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 426,
+      "offset": 474,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1259,
+      "offset": 1330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1462,
+      "offset": 1533,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "FloatLiteral",
-      "offset": 1818,
+      "offset": 1889,
       "length": 4,
       "value": "0.12"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1853,
+      "offset": 1924,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1885,
+      "offset": 1956,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2114,
+      "offset": 2185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2351,
+      "offset": 2422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2660,
+      "offset": 2731,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2697,
+      "offset": 2768,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2954,
+      "offset": 3071,
       "length": 2,
       "value": "12"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapeView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3119,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
@@ -14915,15 +15136,22 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 782,
+      "offset": 658,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 865,
+      "offset": 741,
       "length": 5,
       "value": "false"
     },
@@ -15049,7 +15277,7 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/SectionTitleHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 241,
+      "offset": 298,
       "length": 2,
       "value": "14"
     },
@@ -15350,44 +15578,23 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 504,
+      "offset": 731,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 561,
+      "offset": 788,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 308,
+      "offset": 255,
       "length": 2,
       "value": "14"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 571,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 698,
-      "length": 4,
-      "value": "0.32"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 833,
-      "length": 4,
-      "value": "0.08"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/CustomSegmentedControl.swift",
@@ -15413,30 +15620,30 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 281,
+      "offset": 507,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 591,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 667,
-      "length": 2,
-      "value": "16"
+      "kind": "FloatLiteral",
+      "offset": 948,
+      "length": 4,
+      "value": "1.25"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 770,
-      "length": 4,
-      "value": "1.25"
+      "kind": "IntegerLiteral",
+      "offset": 1177,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/InputFieldView.swift",
@@ -15511,28 +15718,28 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 378,
+      "offset": 426,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 642,
+      "offset": 713,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 868,
+      "offset": 947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/GenderSelection\/GenderSelectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1203,
+      "offset": 1286,
       "length": 5,
       "value": "false"
     },
@@ -15559,192 +15766,192 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 262,
-      "length": 4,
-      "value": "0.32"
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1313,
+      "offset": 394,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 928,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1353,
+      "offset": 968,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/Cells\/SizeCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1438,
+      "offset": 1053,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 936,
+      "offset": 932,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1146,
+      "offset": 1282,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1279,
+      "offset": 1374,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1588,
+      "offset": 1683,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1720,
+      "offset": 1815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1780,
+      "offset": 1875,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2367,
+      "offset": 2462,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3117,
+      "offset": 3212,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3451,
+      "offset": 3490,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "FloatLiteral",
-      "offset": 3504,
+      "offset": 3543,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3559,
+      "offset": 3598,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3568,
+      "offset": 3607,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3579,
+      "offset": 3618,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3589,
+      "offset": 3628,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3623,
+      "offset": 3662,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3814,
+      "offset": 3853,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "StringLiteral",
-      "offset": 4003,
+      "offset": 4042,
       "length": 9,
       "value": "\"#FDF4D5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4043,
+      "offset": 4082,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4221,
+      "offset": 4505,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4363,
+      "offset": 4647,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4590,
+      "offset": 4844,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5164,
+      "offset": 5339,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12995,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Recommendation\/RecommendationViewController.swift",
@@ -15839,15 +16046,8 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 287,
-      "length": 4,
-      "value": "0.12"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 606,
+      "offset": 543,
       "length": 2,
       "value": "12"
     },
@@ -16848,42 +17048,42 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1743,
+      "offset": 2060,
       "length": 10,
       "value": "2003265652"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1771,
+      "offset": 2088,
       "length": 10,
       "value": "2003072104"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 2011,
+      "offset": 2328,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 2033,
+      "offset": 2350,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 2057,
+      "offset": 2374,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 2077,
+      "offset": 2394,
       "length": 3,
       "value": "700"
     },
@@ -16967,175 +17167,175 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
-      "offset": 1372,
+      "offset": 1610,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
-      "offset": 1414,
+      "offset": 1652,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1484,
+      "offset": 1745,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
-      "offset": 1658,
+      "offset": 1919,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
-      "offset": 1853,
+      "offset": 2114,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
-      "offset": 1895,
+      "offset": 2156,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2061,
+      "offset": 2322,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2265,
+      "offset": 2526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2271,
+      "offset": 2532,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2476,
+      "offset": 2737,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2610,
+      "offset": 2871,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2616,
+      "offset": 2877,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "StringLiteral",
-      "offset": 2807,
+      "offset": 3068,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 2917,
+      "offset": 3178,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 2966,
+      "offset": 3227,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3024,
+      "offset": 3285,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3342,
+      "offset": 3603,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 3535,
+      "offset": 3796,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "FloatLiteral",
-      "offset": 3647,
+      "offset": 3908,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 4099,
+      "offset": 4360,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 5804,
+      "offset": 6065,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 5858,
+      "offset": 6119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 15567,
+      "offset": 15943,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 15627,
+      "offset": 16003,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/HNTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 15632,
+      "offset": 16008,
       "length": 1,
       "value": "3"
     },
@@ -17343,6 +17543,132 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ActiveTheme.swift",
+      "kind": "Array",
+      "offset": 956,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ActiveTheme.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1143,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ActiveTheme.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3802,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/KleepTheme.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6703,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 405,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2587,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/Theme.swift",
+      "kind": "Array",
+      "offset": 3795,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1463,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeDecoding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore+Live.swift",
+      "kind": "IntegerLiteral",
+      "offset": 666,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore+Live.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore+Live.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 12,
+      "value": "\"ThemeStore\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore+Live.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1184,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore+Live.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 18,
+      "value": "\"Invalid response\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore.swift",
+      "kind": "FloatLiteral",
+      "offset": 887,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore.swift",
+      "kind": "StringLiteral",
+      "offset": 916,
+      "length": 26,
+      "value": "\"https:\/\/cdn.kleep.ai\/app\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore.swift",
+      "kind": "Dictionary",
+      "offset": 1237,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Theme\/ThemeStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10470,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/Views\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 301,
@@ -17387,21 +17713,21 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 1551,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 1604,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
       "kind": "BooleanLiteral",
-      "offset": 1082,
+      "offset": 1657,
       "length": 4,
       "value": "true"
     },
