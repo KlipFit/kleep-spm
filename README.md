@@ -17,7 +17,7 @@ This process needs to be followed only once, the first time you need to install 
 
 URL: https://github.com/KlipFit/kleep-spm
 
-**Step 4:** Change dependency rule to: up to next major version : 4.2.0
+**Step 4:** Change dependency rule to: up to next major version : 4.3.0
 
 **Step 5:** Make sure Klipflit product is ticked and click on Add Package
 
@@ -93,7 +93,6 @@ struct KlipFitFindSizeView: UIViewControllerRepresentable {
         else {
             fatalError("ViewController not implemented in storyboard")
         }
-        viewController.navigationBar.isHidden = true
         return viewController
     }
     func updateUIViewController(_ uiViewController: KlipftNavigationController, context: Context) {
@@ -102,3 +101,16 @@ struct KlipFitFindSizeView: UIViewControllerRepresentable {
 }
 
 ```
+
+### Presentation
+
+Present the size guide the way you like: `.sheet` in SwiftUI, or `.pageSheet`, `.fullScreen` or `.overFullScreen` in UIKit, including on top of another modal. The size guide stays inside the safe area and draws its own navigation bar (back and close), so there is nothing to hide or configure.
+
+### Add to cart
+
+When the user taps "Add to cart", the SDK calls `onResult(size, variantID)` and then closes the size guide. It does not add anything to the cart itself: your app does, in `onResult`.
+
+- `size` is the size label shown to the user, e.g. `"M"` or `"38"`.
+- `variantID` is the ID of the selected variant in your catalog, as Kleep imports it. For Shopify stores it is the numeric variant ID: the Storefront API expects `gid://shopify/ProductVariant/<variantID>`. It is an empty string if the variant has no ID in Kleep.
+- The size guide is being dismissed when `onResult` is called. Show any cart confirmation once the dismissal is over: presented on top of the size guide it is dismissed with it, and presented from the screen that shows the size guide it fails, because that screen is still presenting.
+
