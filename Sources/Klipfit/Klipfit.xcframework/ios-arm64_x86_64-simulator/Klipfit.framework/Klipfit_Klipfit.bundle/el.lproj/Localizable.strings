@@ -1,0 +1,101 @@
+progressPercentage = "%@%%";
+
+cta.ok = "OK";
+cta.continue = "Συνέχεια";
+
+suffix.cm = "εκ.";
+suffix.lbs = "lbs";
+suffix.kg = "κιλά";
+
+measuredBy.title = "Measured by";
+
+baseInfo.size.title = "Το ύψος σας";
+baseInfo.weight.title = "Το βάρος σας";
+baseInfo.age.title = "Η ηλικία σας";
+navigationBar.title = "Οδηγός μεγεθών";
+baseInfo.title = "Βρείτε το ιδανικό σας μέγεθος";
+baseInfo.subtitle = "Πρώτα, μερικές ερωτήσεις για να σας γνωρίσουμε καλύτερα.";
+genderSelection.title = "Το σύστημα μεγεθών σας";
+male.title = "Ανδρικά";
+female.title = "Γυναικεία";
+done.title = "Done";
+continue.title = "Συνέχεια";
+
+baseInfo.error.height.message = "Παρακαλούμε δηλώστε το ύψος σας.";
+baseInfo.error.weight.message = "Παρακαλούμε δηλώστε το βάρος σας.";
+baseInfo.error.age.message = "Παρακαλούμε δηλώστε την ηλικία σας.";
+
+staticPose.men.chest.title = "Επιλέξτε το σχήμα του κορμού σας";
+staticPose.men.hip.title = "Επιλέξτε το σχήμα των γοφών σας";
+staticPose.menWomen.belly.title = "Επιλέξτε το σχήμα της κοιλιάς σας";
+
+staticPose.women.description = "Αυτό μας βοηθά να κατανοήσουμε τον σωματότυπό σας.";
+staticPose.women.hip.title = "Επιλέξτε το σχήμα των γοφών σας";
+
+staticPose.scanBodyButton.title = "Για μεγαλύτερη ακρίβεια, δοκιμάστε τη σάρωση σώματος";
+
+braShape.braSize.title = "Επιλέξτε το μέγεθος του στήθους σας";
+braShape.braSize.description = "Ανατρέξτε στο μέγεθος του σουτιέν σας";
+
+braShape.braSize.sizeSystem.title = "Χώρα";
+braShape.notRespondButton.title = "Προτιμώ να μην απαντήσω";
+
+braShape.bandSize.title = "Περιφέρεια*";
+braShape.cupSize.title = "Cup*";
+
+plat.title = "Επίπεδη";
+moyen.title = "Μεσαία";
+rond.title = "Στρογγυλή";
+fin.title = "Λεπτοί";
+large.title = "Γεμάτοι";
+fines.title = "Λεπτοί";
+moyenes.title = "Μεσαίοι";
+larges.title = "Γεμάτοι";
+etroit.title = "Λεπτός";
+
+videoInstruction.title = "Γρήγορη και ακριβής σάρωση σώματος";
+videoInstruction.description = "Σας καθοδηγούμε να τραβήξετε μία φωτογραφία από μπροστά και μία από το πλάι για να αναλύσουμε τη σιλουέτα σας.";
+
+instruction.clothes.title = "Φορέστε εφαρμοστά ρούχα.";
+instruction.light.title = "Επιλέξτε ένα καλά φωτισμένο σημείο.";
+instruction.forwardPose.title = "Σταθείτε από μπροστά, μετά στο πλάι.";
+
+camera.firstStep.title = "Μπροστά";
+camera.secondStep.title = "Πλάι";
+camera.frontPose.title = "ΚΑΝΤΕ ΔΥΟ ΒΗΜΑΤΑ ΠΙΣΩ. ΚΟΙΤΑΞΤΕ ΜΠΡΟΣΤΑ";
+camera.sidePose.title = "ΣΤΑΘΕΙΤΕ ΣΤΟ ΠΛΑΙ";
+camera.scanFigureButton.title = "Σαρώστε τη σιλουέτα σας";
+camera.scanFigure.title = "Ακουμπήστε το κινητό σας στο πάτωμα, στηριγμένο σε έναν τοίχο.";
+
+calculationError.title = "Κάτι πήγε στραβά. Ελέγξτε τη σύνδεσή σας στο Internet και δοκιμάστε ξανά.";
+calculationError.subtitle = "Σας προτείνουμε να ξεκινήσετε από την αρχή για να βρείτε το ιδανικό σας μέγεθος.";
+restart.title = "Από την αρχή";
+start.title = "Έναρξη";
+
+recommendation.size.title = "Προτεινόμενο μέγεθος";
+
+recommendation.sizeIdeal.title = "Ιδανικό μέγεθος";
+recommendation.sizeIdeal.description = "%@ πελάτες με %@ με τον δικό σας έμειναν πολύ ικανοποιημένοι με την αγορά αυτού του προϊόντος στο μέγεθος %@.";
+
+thousands.title = "Χιλιάδες";
+morphology.title = "παρόμοιο σωματότυπο";
+
+recommendation.bigSizePossible.description = "Για πιο άνετη εφαρμογή, επιλέξτε το μέγεθος %@.";
+recommendation.smallSizePossible.description = "Για πιο εφαρμοστό αποτέλεσμα, επιλέξτε το μέγεθος %@.";
+recommendation.bigSizeNotPossible.description = "Με βάση τον σωματότυπό σας, το μέγεθος %@ θα είναι πολύ μεγάλο. Σας προτείνουμε να επιλέξετε μικρότερο μέγεθος.";
+recommendation.smallSizeNotPossible.description = "Με βάση τον σωματότυπό σας, το μέγεθος %@ θα είναι πολύ μικρό. Σας προτείνουμε να επιλέξετε μεγαλύτερο μέγεθος.";
+recommendation.noIdealSize.title = "Δυστυχώς, αυτό το μέγεθος δεν είναι διαθέσιμο.";
+recommendation.addToCartButton.title = "Προσθήκη του μεγέθους %@ στο καλάθι";
+recommendation.similarProducts.title = "Παρόμοια προϊόντα διαθέσιμα σε αυτό το μέγεθος:";
+
+lowerSize.title = "Πιο εφαρμοστό";
+idealSize.title = "Ιδανικό";
+biggerSize.title = "Πιο φαρδύ";
+
+calculateSize.title = "Υπολογίζουμε το ιδανικό σας μέγεθος!";
+calculateSize.description = "Θα μεταφερθείτε σε %.0f δευτερόλεπτα το πολύ.";
+
+noInternetConnection.title = "Παρουσιάστηκε ένα πρόβλημα...";
+noInternetConnection.subtitle = "Ελέγξτε τη σύνδεση δικτύου στις ρυθμίσεις σας και δοκιμάστε ξανά.";
+noInternetConnection.refreshButton.title = "Ανανέωση";
+noInternetConnection.quitButton.title = "Έξοδος";

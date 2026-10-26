@@ -1,0 +1,101 @@
+progressPercentage = "%@%%";
+
+cta.ok = "OK";
+cta.continue = "Продолжить";
+
+suffix.cm = "см";
+suffix.lbs = "lbs";
+suffix.kg = "кг";
+
+measuredBy.title = "Measured by";
+
+baseInfo.size.title = "Ваш рост";
+baseInfo.weight.title = "Ваш вес";
+baseInfo.age.title = "Ваш возраст";
+navigationBar.title = "Таблица размеров";
+baseInfo.title = "Найдите свой идеальный размер";
+baseInfo.subtitle = "Сначала несколько вопросов, чтобы узнать вас лучше.";
+genderSelection.title = "Ваша размерная сетка";
+male.title = "Мужская";
+female.title = "Женская";
+done.title = "Done";
+continue.title = "Продолжить";
+
+baseInfo.error.height.message = "Пожалуйста, укажите ваш рост.";
+baseInfo.error.weight.message = "Пожалуйста, укажите ваш вес.";
+baseInfo.error.age.message = "Пожалуйста, укажите ваш возраст.";
+
+staticPose.men.chest.title = "Выберите форму торса";
+staticPose.men.hip.title = "Выберите форму бёдер";
+staticPose.menWomen.belly.title = "Выберите форму живота";
+
+staticPose.women.description = "Это помогает нам понять вашу фигуру.";
+staticPose.women.hip.title = "Выберите форму бёдер";
+
+staticPose.scanBodyButton.title = "Для большей точности попробуйте сканирование тела";
+
+braShape.braSize.title = "Выберите размер груди";
+braShape.braSize.description = "Ориентируйтесь на размер вашего бюстгальтера";
+
+braShape.braSize.sizeSystem.title = "Страна";
+braShape.notRespondButton.title = "Предпочитаю не отвечать";
+
+braShape.bandSize.title = "Обхват под грудью*";
+braShape.cupSize.title = "Размер чашки*";
+
+plat.title = "Плоский";
+moyen.title = "Средний";
+rond.title = "Округлый";
+fin.title = "Худые";
+large.title = "Полные";
+fines.title = "Худые";
+moyenes.title = "Средние";
+larges.title = "Полные";
+etroit.title = "Худощавый";
+
+videoInstruction.title = "Быстрое и точное сканирование тела";
+videoInstruction.description = "Мы поможем вам сделать фото анфас и в профиль, чтобы проанализировать вашу фигуру.";
+
+instruction.clothes.title = "Наденьте облегающую одежду.";
+instruction.light.title = "Выберите хорошо освещённое место.";
+instruction.forwardPose.title = "Встаньте лицом к камере, затем боком.";
+
+camera.firstStep.title = "Анфас";
+camera.secondStep.title = "Профиль";
+camera.frontPose.title = "СДЕЛАЙТЕ ДВА ШАГА НАЗАД. ЛИЦОМ К КАМЕРЕ";
+camera.sidePose.title = "ВСТАНЬТЕ БОКОМ";
+camera.scanFigureButton.title = "Сканировать фигуру";
+camera.scanFigure.title = "Поставьте телефон на пол, прислонив его к стене.";
+
+calculationError.title = "Что-то пошло не так. Проверьте подключение к интернету и попробуйте ещё раз.";
+calculationError.subtitle = "Рекомендуем начать заново, чтобы найти ваш идеальный размер.";
+restart.title = "Начать заново";
+start.title = "Начать";
+
+recommendation.size.title = "Рекомендуемый размер";
+
+recommendation.sizeIdeal.title = "Идеальный размер";
+recommendation.sizeIdeal.description = "%@ покупателей с %@, остались очень довольны покупкой этой вещи в размере %@.";
+
+thousands.title = "Тысячи";
+morphology.title = "фигурой, похожей на вашу";
+
+recommendation.bigSizePossible.description = "Для более свободной посадки выберите размер %@.";
+recommendation.smallSizePossible.description = "Для более облегающей посадки выберите размер %@.";
+recommendation.bigSizeNotPossible.description = "Исходя из вашей фигуры, размер %@ будет слишком велик. Рекомендуем выбрать размер меньше.";
+recommendation.smallSizeNotPossible.description = "Исходя из вашей фигуры, размер %@ будет слишком мал. Рекомендуем выбрать размер больше.";
+recommendation.noIdealSize.title = "К сожалению, этот размер недоступен.";
+recommendation.addToCartButton.title = "Добавить размер %@ в корзину";
+recommendation.similarProducts.title = "Похожие товары, доступные в этом размере:";
+
+lowerSize.title = "Более облегающий";
+idealSize.title = "Идеальный";
+biggerSize.title = "Более свободный";
+
+calculateSize.title = "Мы рассчитываем ваш идеальный размер!";
+calculateSize.description = "Вы будете перенаправлены максимум через %.0f с.";
+
+noInternetConnection.title = "Возникла проблема...";
+noInternetConnection.subtitle = "Проверьте подключение к сети в настройках и попробуйте ещё раз.";
+noInternetConnection.refreshButton.title = "Обновить";
+noInternetConnection.quitButton.title = "Выйти";

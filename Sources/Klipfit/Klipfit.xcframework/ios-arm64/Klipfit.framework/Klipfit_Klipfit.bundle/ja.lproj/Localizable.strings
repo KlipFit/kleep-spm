@@ -1,0 +1,101 @@
+progressPercentage = "%@%%";
+
+cta.ok = "OK";
+cta.continue = "続ける";
+
+suffix.cm = "cm";
+suffix.lbs = "lbs";
+suffix.kg = "kg";
+
+measuredBy.title = "Measured by";
+
+baseInfo.size.title = "身長";
+baseInfo.weight.title = "体重";
+baseInfo.age.title = "年齢";
+navigationBar.title = "サイズガイド";
+baseInfo.title = "理想のサイズを見つける";
+baseInfo.subtitle = "まずは、あなたについていくつか質問させてください。";
+genderSelection.title = "サイズの種類";
+male.title = "メンズ";
+female.title = "レディース";
+done.title = "Done";
+continue.title = "続ける";
+
+baseInfo.error.height.message = "身長を入力してください。";
+baseInfo.error.weight.message = "体重を入力してください。";
+baseInfo.error.age.message = "年齢を入力してください。";
+
+staticPose.men.chest.title = "上半身の体型を選択してください";
+staticPose.men.hip.title = "ヒップのタイプを選択してください";
+staticPose.menWomen.belly.title = "おなかまわりの体型を選択してください";
+
+staticPose.women.description = "あなたの体型を理解するのに役立ちます。";
+staticPose.women.hip.title = "ヒップのタイプを選択してください";
+
+staticPose.scanBodyButton.title = "より正確に測るには、ボディスキャンをお試しください";
+
+braShape.braSize.title = "バストサイズを選択してください";
+braShape.braSize.description = "ブラジャーのサイズを参考にしてください";
+
+braShape.braSize.sizeSystem.title = "国";
+braShape.notRespondButton.title = "回答しない";
+
+braShape.bandSize.title = "アンダーバスト*";
+braShape.cupSize.title = "カップサイズ*";
+
+plat.title = "フラット";
+moyen.title = "ミディアム";
+rond.title = "ラウンド";
+fin.title = "スリム";
+large.title = "ワイド";
+fines.title = "スリム";
+moyenes.title = "ミディアム";
+larges.title = "ワイド";
+etroit.title = "スリム";
+
+videoInstruction.title = "すばやく正確なボディスキャン";
+videoInstruction.description = "正面と横向きの写真を撮れるようご案内し、あなたのシルエットを分析します。";
+
+instruction.clothes.title = "体にフィットする服を着てください。";
+instruction.light.title = "明るい場所を選んでください。";
+instruction.forwardPose.title = "正面を向いてから、横を向いてください。";
+
+camera.firstStep.title = "正面";
+camera.secondStep.title = "横向き";
+camera.frontPose.title = "2歩下がって、正面を向いてください";
+camera.sidePose.title = "横を向いてください";
+camera.scanFigureButton.title = "シルエットをスキャン";
+camera.scanFigure.title = "スマートフォンを床に置き、壁に立てかけてください。";
+
+calculationError.title = "問題が発生しました。インターネット接続を確認して、もう一度お試しください。";
+calculationError.subtitle = "理想のサイズを見つけるために、最初からやり直すことをおすすめします。";
+restart.title = "やり直す";
+start.title = "スタート";
+
+recommendation.size.title = "おすすめのサイズ";
+
+recommendation.sizeIdeal.title = "理想のサイズ";
+recommendation.sizeIdeal.description = "あなたと%2$@の%1$@ものお客様が、この商品をサイズ%3$@で購入し、とても満足しています。";
+
+thousands.title = "何千人";
+morphology.title = "似た体型";
+
+recommendation.bigSizePossible.description = "ゆったりとしたフィット感をご希望の場合は、サイズ%@をお選びください。";
+recommendation.smallSizePossible.description = "よりスリムなフィット感をご希望の場合は、サイズ%@をお選びください。";
+recommendation.bigSizeNotPossible.description = "お客様の体型では、サイズ%@は大きすぎます。小さいサイズをお選びください。";
+recommendation.smallSizeNotPossible.description = "お客様の体型では、サイズ%@は小さすぎます。大きいサイズをお選びください。";
+recommendation.noIdealSize.title = "あいにく、このサイズは現在ご利用いただけません。";
+recommendation.addToCartButton.title = "サイズ%@をカートに追加";
+recommendation.similarProducts.title = "このサイズで購入できる類似商品：";
+
+lowerSize.title = "スリムフィット";
+idealSize.title = "理想";
+biggerSize.title = "ルーズフィット";
+
+calculateSize.title = "理想のサイズを計算しています！";
+calculateSize.description = "最大%.0f秒後に移動します。";
+
+noInternetConnection.title = "問題が発生しました...";
+noInternetConnection.subtitle = "設定でネットワーク接続を確認して、もう一度お試しください。";
+noInternetConnection.refreshButton.title = "更新";
+noInternetConnection.quitButton.title = "終了";

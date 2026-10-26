@@ -1,0 +1,101 @@
+progressPercentage = "%@%%";
+
+cta.ok = "OK";
+cta.continue = "계속하기";
+
+suffix.cm = "cm";
+suffix.lbs = "lbs";
+suffix.kg = "kg";
+
+measuredBy.title = "Measured by";
+
+baseInfo.size.title = "키";
+baseInfo.weight.title = "몸무게";
+baseInfo.age.title = "나이";
+navigationBar.title = "사이즈 가이드";
+baseInfo.title = "나에게 맞는 사이즈 찾기";
+baseInfo.subtitle = "먼저, 회원님을 더 잘 알기 위해 몇 가지 질문을 드릴게요.";
+genderSelection.title = "사이즈 기준";
+male.title = "남성";
+female.title = "여성";
+done.title = "Done";
+continue.title = "계속하기";
+
+baseInfo.error.height.message = "키를 입력해 주세요.";
+baseInfo.error.weight.message = "몸무게를 입력해 주세요.";
+baseInfo.error.age.message = "나이를 입력해 주세요.";
+
+staticPose.men.chest.title = "상체 형태를 선택해 주세요";
+staticPose.men.hip.title = "엉덩이 형태를 선택해 주세요";
+staticPose.menWomen.belly.title = "복부 형태를 선택해 주세요";
+
+staticPose.women.description = "회원님의 체형을 이해하는 데 도움이 됩니다.";
+staticPose.women.hip.title = "엉덩이 형태를 선택해 주세요";
+
+staticPose.scanBodyButton.title = "더 정확한 결과를 원하시면 바디 스캔을 이용해 보세요";
+
+braShape.braSize.title = "가슴 사이즈를 선택해 주세요";
+braShape.braSize.description = "브라 사이즈를 참고해 주세요";
+
+braShape.braSize.sizeSystem.title = "국가";
+braShape.notRespondButton.title = "답변하지 않겠습니다";
+
+braShape.bandSize.title = "밑가슴 둘레*";
+braShape.cupSize.title = "컵 사이즈*";
+
+plat.title = "평평함";
+moyen.title = "보통";
+rond.title = "둥근 편";
+fin.title = "슬림";
+large.title = "넓은 편";
+fines.title = "슬림";
+moyenes.title = "보통";
+larges.title = "넓은 편";
+etroit.title = "슬림";
+
+videoInstruction.title = "빠르고 정확한 바디 스캔";
+videoInstruction.description = "정면과 측면 사진을 찍을 수 있도록 안내해 드리며, 이를 통해 회원님의 실루엣을 분석합니다.";
+
+instruction.clothes.title = "몸에 딱 맞는 옷을 입어 주세요.";
+instruction.light.title = "밝은 곳을 선택해 주세요.";
+instruction.forwardPose.title = "정면을 본 다음 옆으로 서 주세요.";
+
+camera.firstStep.title = "정면";
+camera.secondStep.title = "측면";
+camera.frontPose.title = "두 걸음 뒤로 물러나 정면을 봐 주세요";
+camera.sidePose.title = "옆으로 서 주세요";
+camera.scanFigureButton.title = "실루엣 스캔하기";
+camera.scanFigure.title = "휴대폰을 바닥에 놓고 벽에 기대어 세워 주세요.";
+
+calculationError.title = "문제가 발생했습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요.";
+calculationError.subtitle = "나에게 맞는 사이즈를 찾으려면 처음부터 다시 시작하시길 권장합니다.";
+restart.title = "다시 시작";
+start.title = "시작";
+
+recommendation.size.title = "추천 사이즈";
+
+recommendation.sizeIdeal.title = "이상적인 사이즈";
+recommendation.sizeIdeal.description = "회원님과 %2$@을 가진 %1$@의 고객이 이 상품을 %3$@ 사이즈로 구매하고 매우 만족했습니다.";
+
+thousands.title = "수천 명";
+morphology.title = "비슷한 체형";
+
+recommendation.bigSizePossible.description = "더 여유 있는 핏을 원하시면 %@ 사이즈를 선택하세요.";
+recommendation.smallSizePossible.description = "더 슬림한 핏을 원하시면 %@ 사이즈를 선택하세요.";
+recommendation.bigSizeNotPossible.description = "회원님의 체형에는 %@ 사이즈가 너무 큽니다. 더 작은 사이즈를 선택하시길 권장합니다.";
+recommendation.smallSizeNotPossible.description = "회원님의 체형에는 %@ 사이즈가 너무 작습니다. 더 큰 사이즈를 선택하시길 권장합니다.";
+recommendation.noIdealSize.title = "아쉽게도 이 사이즈는 현재 구매할 수 없습니다.";
+recommendation.addToCartButton.title = "%@ 사이즈를 장바구니에 담기";
+recommendation.similarProducts.title = "이 사이즈로 구매 가능한 비슷한 상품:";
+
+lowerSize.title = "슬림한 핏";
+idealSize.title = "이상적";
+biggerSize.title = "여유 있는 핏";
+
+calculateSize.title = "나에게 맞는 사이즈를 계산하고 있습니다!";
+calculateSize.description = "최대 %.0f초 후에 이동합니다.";
+
+noInternetConnection.title = "문제가 발생했습니다...";
+noInternetConnection.subtitle = "설정에서 네트워크 연결을 확인한 후 다시 시도해 주세요.";
+noInternetConnection.refreshButton.title = "새로고침";
+noInternetConnection.quitButton.title = "종료";
