@@ -456,6 +456,12 @@ public enum KleepLanguageCode {
   case it
   case es
   case pt
+  case de
+  case el
+  case ja
+  case ko
+  case ru
+  case enUS
   public static func == (a: KleepLanguageCode, b: KleepLanguageCode) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {

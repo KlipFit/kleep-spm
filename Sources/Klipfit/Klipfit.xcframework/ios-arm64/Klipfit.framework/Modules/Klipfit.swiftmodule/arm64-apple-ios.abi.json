@@ -14181,6 +14181,231 @@
             "moduleName": "Klipfit"
           },
           {
+            "kind": "Var",
+            "name": "de",
+            "printedName": "de",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2deyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2deyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "el",
+            "printedName": "el",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2elyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2elyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "ja",
+            "printedName": "ja",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2jayA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2jayA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "ko",
+            "printedName": "ko",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2koyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2koyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "ru",
+            "printedName": "ru",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO2ruyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO2ruyA2CmF",
+            "moduleName": "Klipfit"
+          },
+          {
+            "kind": "Var",
+            "name": "enUS",
+            "printedName": "enUS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Klipfit.KleepLanguageCode.Type) -> Klipfit.KleepLanguageCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KleepLanguageCode",
+                    "printedName": "Klipfit.KleepLanguageCode",
+                    "usr": "s:7Klipfit17KleepLanguageCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Klipfit.KleepLanguageCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KleepLanguageCode",
+                        "printedName": "Klipfit.KleepLanguageCode",
+                        "usr": "s:7Klipfit17KleepLanguageCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Klipfit17KleepLanguageCodeO4enUSyA2CmF",
+            "mangledName": "$s7Klipfit17KleepLanguageCodeO4enUSyA2CmF",
+            "moduleName": "Klipfit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -14975,43 +15200,50 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
+      "kind": "Array",
+      "offset": 269,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 565,
+      "offset": 634,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Base\/BaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 623,
+      "offset": 692,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 666,
+      "offset": 731,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 725,
+      "offset": 790,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 740,
+      "offset": 805,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BaseInfo\/BaseInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 772,
+      "offset": 837,
       "length": 5,
       "value": "false"
     },
@@ -15128,6 +15360,13 @@
       "value": "3"
     },
     {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/BraShapesViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3806,
+      "length": 1,
+      "value": "4"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Cells\/BraShapeCollectionViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 237,
@@ -15227,50 +15466,57 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "FloatLiteral",
-      "offset": 366,
+      "offset": 419,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "Array",
-      "offset": 482,
+      "offset": 535,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 881,
+      "offset": 934,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
+      "offset": 968,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1123,
+      "offset": 1176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1303,
+      "offset": 1460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/BraShape\/Views\/DropDownView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1386,
+      "offset": 1543,
       "length": 2,
       "value": "12"
     },
@@ -15398,7 +15644,7 @@
       "kind": "IntegerLiteral",
       "offset": 680,
       "length": 1,
-      "value": "2"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Camera\/ScanSilhouette\/ScanSilhouetteView.swift",
@@ -15627,21 +15873,21 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 696,
       "length": 1,
-      "value": "2"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "FloatLiteral",
-      "offset": 948,
+      "offset": 1053,
       "length": 4,
       "value": "1.25"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/DescriptionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1177,
+      "offset": 1282,
       "length": 2,
       "value": "16"
     },
@@ -15697,21 +15943,21 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 706,
+      "offset": 718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1040,
+      "offset": 1064,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/NavigationBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1213,
+      "offset": 1237,
       "length": 4,
       "value": "true"
     },
@@ -16052,72 +16298,86 @@
       "value": "12"
     },
     {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 745,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/Cells\/StaticPoseCollectionViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 785,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 672,
+      "offset": 740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 810,
+      "offset": 878,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1150,
+      "offset": 1218,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1365,
+      "offset": 1433,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1427,
+      "offset": 1495,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1442,
+      "offset": 1510,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1692,
+      "offset": 1760,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1962,
+      "offset": 2030,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1977,
+      "offset": 2045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/StaticPose\/StaticPoseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2142,
+      "offset": 2210,
       "length": 1,
       "value": "7"
     },

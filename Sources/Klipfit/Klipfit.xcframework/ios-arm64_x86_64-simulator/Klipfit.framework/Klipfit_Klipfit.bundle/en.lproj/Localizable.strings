@@ -65,7 +65,7 @@ camera.secondStep.title = "Sideways";
 camera.frontPose.title = "TAKE TWO STEPS BACK. FACE FORWARD";
 camera.sidePose.title = "POSE SIDEWAYS";
 camera.scanFigureButton.title = "Scan your silhouette";
-camera.scanFigure.title = "Face forward, then sideways.";
+camera.scanFigure.title = "Place your phone on the floor against a wall.";
 
 calculationError.title = "Something went wrong. Please check your Internet connection and try again.";
 calculationError.subtitle = "We recommend you to start again to find your ideal size.";
@@ -88,9 +88,9 @@ recommendation.noIdealSize.title = "Unfortunately, this size is unavailable.";
 recommendation.addToCartButton.title = "Add size %@ to the cart.";
 recommendation.similarProducts.title = "Similar products available in this size:";
 
-lowerSize.title = "Fitter";
+lowerSize.title = "Tighter";
 idealSize.title = "Ideal";
-biggerSize.title = "Slimmer";
+biggerSize.title = "Looser";
 
 calculateSize.title = "We're calculating your ideal size!";
 calculateSize.description = "You'll be redirected in %.0f seconds maximum.";
