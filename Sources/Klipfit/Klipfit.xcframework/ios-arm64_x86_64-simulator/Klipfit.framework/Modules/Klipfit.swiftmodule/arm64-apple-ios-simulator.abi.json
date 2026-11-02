@@ -10220,6 +10220,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Klipfit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -17992,9 +17999,30 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
+      "kind": "Dictionary",
+      "offset": 6376,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6437,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Klipfit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6441,
+      "length": 2,
+      "value": "60"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Models\/Network\/ApiError.swift",
       "kind": "IntegerLiteral",
-      "offset": 209,
+      "offset": 987,
       "length": 1,
       "value": "0"
     },
