@@ -331,7 +331,7 @@
           {
             "kind": "Function",
             "name": "loadView",
-            "printedName": "loadView(productID:retailerName:language:trackingID:customerID:stocks:onResult:)",
+            "printedName": "loadView(productID:retailerName:language:trackingID:customerID:stocks:isBodyScanEnabled:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -411,6 +411,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "((Swift.String, Swift.String) -> ())?",
                 "children": [
@@ -450,15 +457,16 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH06stocks8onResultACSgSS_SSAA17KleepLanguageCodeOS2SSDySSSbGSgySS_SStcSgtFZ",
-            "mangledName": "$s7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH06stocks8onResultACSgSS_SSAA17KleepLanguageCodeOS2SSDySSSbGSgySS_SStcSgtFZ",
+            "usr": "s:7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH06stocks17isBodyScanEnabled8onResultACSgSS_SSAA17KleepLanguageCodeOS2SSDySSSbGSgSbySS_SStcSgtFZ",
+            "mangledName": "$s7Klipfit26KlipftNavigationControllerC8loadView9productID12retailerName8language08trackingH008customerH06stocks17isBodyScanEnabled8onResultACSgSS_SSAA17KleepLanguageCodeOS2SSDySSSbGSgSbySS_SStcSgtFZ",
             "moduleName": "Klipfit",
             "static": true,
             "declAttributes": [
               "Final",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -15831,16 +15839,23 @@
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 956,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 1013,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/Contollers\/KlipftNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1138,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Flows\/CustomViews\/AppButton.swift",
@@ -17766,6 +17781,13 @@
       "offset": 475,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/SharedInstance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 855,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/kleep-ios\/kleep-ios\/Sources\/Klipfit\/Helper\/StorageService.swift",
